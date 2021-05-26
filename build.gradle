@@ -77,6 +77,7 @@ dependencies {
     compile fg.deobf('curse.maven:abnormalscore-382216:3233486')
     compile fg.deobf('curse.maven:autumnity-365045:3295700')
     compile fg.deobf('curse.maven:environmental-388992:3221635')
+    compile fg.deobf('curse.maven:atmospheric-362393:3249309')
     compile fg.deobf('curse.maven:biomesoplenty-220318:3300293')
 }
 
