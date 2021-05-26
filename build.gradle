@@ -26,6 +26,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
@@ -37,6 +38,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
@@ -48,6 +50,7 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             args '--mod', 'morecfm', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
@@ -71,6 +74,10 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.1.15'
     compile fg.deobf('curse.maven:cfm-55438:3325365')
+    compile fg.deobf('curse.maven:abnormalscore-382216:3233486')
+    compile fg.deobf('curse.maven:autumnity-365045:3295700')
+    compile fg.deobf('curse.maven:environmental-388992:3221635')
+    compile fg.deobf('curse.maven:biomesoplenty-220318:3300293')
 }
 
 processResources {
