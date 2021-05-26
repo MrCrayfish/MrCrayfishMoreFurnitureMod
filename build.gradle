@@ -62,8 +62,15 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+repositories {
+    maven {
+        url = "https://www.cursemaven.com"
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.1.15'
+    compile fg.deobf('curse.maven:cfm-55438:3325365')
 }
 
 processResources {
