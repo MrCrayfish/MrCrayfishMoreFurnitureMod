@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishFurnitureMod/issues"
 [[mods]]
 modId="morecfm"
 version="1.0.0"
-displayName="MrCrayfish's Furniture Mod"
+displayName="MrCrayfish's More Furniture Mod"
 updateJSONURL="https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/morecfm/update.json"
 displayURL="https://mrcrayfish.com/mods?id=morecfm"
 logoFile="morefurniture.png"
