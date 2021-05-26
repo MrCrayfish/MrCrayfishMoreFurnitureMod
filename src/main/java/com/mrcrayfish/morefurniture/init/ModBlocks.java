@@ -3,6 +3,9 @@ package com.mrcrayfish.morefurniture.init;
 import com.mrcrayfish.furniture.FurnitureMod;
 import com.mrcrayfish.morefurniture.Reference;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -19,6 +22,10 @@ import java.util.function.Supplier;
 public class ModBlocks
 {
     public static final DeferredRegister<Block> REGISTER = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
+
+    public static final Material WOOD = com.mrcrayfish.furniture.core.ModBlocks.WOOD;
+    public static final Material STONE = com.mrcrayfish.furniture.core.ModBlocks.STONE;
+    public static final Material WOOL = com.mrcrayfish.furniture.core.ModBlocks.WOOL;
 
     private static RegistryObject<Block> register(String name, Block block)
     {
