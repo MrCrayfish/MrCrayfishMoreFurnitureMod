@@ -1,5 +1,8 @@
 package com.mrcrayfish.morefurniture;
 
+import biomesoplenty.api.block.BOPBlocks;
+import com.minecraftabnormals.autumnity.core.registry.AutumnityBlocks;
+import com.minecraftabnormals.environmental.core.registry.EnvironmentalBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.client.resources.I18n;
 import org.apache.commons.io.FileUtils;
@@ -45,6 +48,21 @@ public class Generator
 
     public Generator()
     {
+        this.registerVariant("maple", AutumnityBlocks.MAPLE_LOG.get(), AutumnityBlocks.MAPLE_PLANKS.get(), AutumnityBlocks.STRIPPED_MAPLE_LOG.get());
+        this.registerVariant("willow", EnvironmentalBlocks.WILLOW_LOG.get(), EnvironmentalBlocks.WILLOW_PLANKS.get(), EnvironmentalBlocks.STRIPPED_WILLOW_LOG.get());
+        this.registerVariant("cherry", EnvironmentalBlocks.CHERRY_LOG.get(), EnvironmentalBlocks.CHERRY_PLANKS.get(), EnvironmentalBlocks.STRIPPED_CHERRY_LOG.get());
+        this.registerVariant("wisteria", EnvironmentalBlocks.WISTERIA_LOG.get(), EnvironmentalBlocks.WISTERIA_PLANKS.get(), EnvironmentalBlocks.STRIPPED_WISTERIA_LOG.get());
+        this.registerVariant("fir", BOPBlocks.fir_log, BOPBlocks.fir_planks, BOPBlocks.stripped_fir_log);
+        this.registerVariant("redwood", BOPBlocks.redwood_log, BOPBlocks.redwood_planks, BOPBlocks.stripped_redwood_log);
+        this.registerVariant("cherry", BOPBlocks.cherry_log, BOPBlocks.cherry_planks, BOPBlocks.stripped_cherry_log);
+        this.registerVariant("mahogany", BOPBlocks.mahogany_log, BOPBlocks.mahogany_planks, BOPBlocks.stripped_mahogany_log);
+        this.registerVariant("jacaranda", BOPBlocks.jacaranda_log, BOPBlocks.jacaranda_planks, BOPBlocks.stripped_jacaranda_log);
+        this.registerVariant("palm", BOPBlocks.palm_log, BOPBlocks.palm_planks, BOPBlocks.stripped_palm_log);
+        this.registerVariant("willow", BOPBlocks.willow_log, BOPBlocks.willow_planks, BOPBlocks.stripped_willow_log);
+        this.registerVariant("dead", BOPBlocks.dead_log, BOPBlocks.dead_planks, BOPBlocks.stripped_dead_log);
+        this.registerVariant("magic", BOPBlocks.magic_log, BOPBlocks.magic_planks, BOPBlocks.stripped_magic_log);
+        this.registerVariant("umbran", BOPBlocks.umbran_log, BOPBlocks.umbran_planks, BOPBlocks.stripped_umbran_log);
+        this.registerVariant("hellbark", BOPBlocks.hellbark_log, BOPBlocks.hellbark_planks, BOPBlocks.stripped_hellbark_log);
     }
 
     public void registerVariant(String id, Block log, Block planks, @Nullable Block strippedLog)
