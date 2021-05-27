@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.mrcrayfish.morefurniture.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "minVersion": "0.8",
+    "refmap": "morecfm.refmap.json",
+    "mixins": [
+        "ForgeHooksMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
