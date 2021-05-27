@@ -1,0 +1,509 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "morecfm:autumnity_maple_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_maple_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_maple_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_coffee_table",
+      "required": false
+    }
+  ]
+}

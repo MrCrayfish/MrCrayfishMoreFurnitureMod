@@ -1,0 +1,173 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "morecfm:autumnity_maple_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_upgraded_gate",
+      "required": false
+    }
+  ]
+}

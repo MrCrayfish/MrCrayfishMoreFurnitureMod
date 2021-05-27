@@ -1,0 +1,509 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "morecfm:autumnity_maple_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:autumnity_stripped_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_wisteria_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:environmental_stripped_wisteria_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_rosewood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_rosewood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_morado_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_morado_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_yucca_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_yucca_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_kousa_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_kousa_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_grimwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:atmospheric_stripped_grimwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_dead_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_dead_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_magic_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_magic_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_umbran_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_umbran_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_hellbark_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:biomesoplenty_stripped_hellbark_mail_box",
+      "required": false
+    }
+  ]
+}
