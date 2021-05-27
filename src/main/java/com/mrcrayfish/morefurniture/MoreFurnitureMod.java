@@ -10,6 +10,7 @@ import com.mrcrayfish.morefurniture.datagen.RecipeGen;
 import com.mrcrayfish.morefurniture.init.ModBlocks;
 import com.mrcrayfish.morefurniture.init.ModCommands;
 import com.mrcrayfish.morefurniture.init.ModItems;
+import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,6 +23,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.commons.lang3.ObjectUtils;
 
 /**
  * Author: MrCrayfish
@@ -34,7 +36,8 @@ public class MoreFurnitureMod
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(ModBlocks.ATMOSPHERIC_CHAIR_ASPEN.get());
+            Block block = ObjectUtils.firstNonNull(ModBlocks.ENVIRONMENTAL_CHAIR_STRIPPED_WILLOW, ModBlocks.ATMOSPHERIC_CHAIR_STRIPPED_ASPEN, ModBlocks.BIOMESOPLENTY_CHAIR_STRIPPED_CHERRY, com.mrcrayfish.furniture.core.ModBlocks.CHAIR_CRIMSON).get();
+            return new ItemStack(block);
         }
     };
 
