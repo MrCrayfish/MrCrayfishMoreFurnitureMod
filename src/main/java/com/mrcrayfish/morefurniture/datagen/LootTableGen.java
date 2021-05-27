@@ -3,7 +3,9 @@ package com.mrcrayfish.morefurniture.datagen;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
 import com.mrcrayfish.furniture.block.CoffeeTableBlock;
+import com.mrcrayfish.morefurniture.Generator;
 import com.mrcrayfish.morefurniture.Reference;
+import com.mrcrayfish.morefurniture.init.ModBlocks;
 import net.minecraft.advancements.criterion.StatePropertiesPredicate;
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
@@ -26,6 +28,7 @@ import net.minecraft.loot.functions.CopyNbt;
 import net.minecraft.loot.functions.SetCount;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.data.ForgeLootTableProvider;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.List;
@@ -82,22 +85,45 @@ public class LootTableGen extends ForgeLootTableProvider
         }
     }
 
+    private static Block getResultBlock(Generator.Variant variant, Generator.FurnitureType type, boolean stripped)
+    {
+        try
+        {
+            String fieldFormat = stripped ? "%s_%s_STRIPPED_%s" : "%s_%s_%s";
+            String fieldName = String.format(fieldFormat, variant.getLog().getRegistryName().getNamespace().toUpperCase(), type.getId().toUpperCase(), variant.getId().toUpperCase());
+            RegistryObject<Block> block = (RegistryObject<Block>) ModBlocks.class.getField(fieldName).get(null);
+            return block.get();
+        }
+        catch(NoSuchFieldException | IllegalAccessException e)
+        {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     private static class BlockProvider extends BlockLootTables
     {
         @Override
         protected void addTables()
         {
-
+            Generator generator = new Generator();
+            for(Generator.FurnitureType type : Generator.FURNITURE_TYPES)
+            {
+                for(Generator.Variant variant : generator.getRegisteredVariants())
+                {
+                    Consumer<Block> register = type == Generator.COFFEE_TABLE ? this::registerCoffeeTable : this::registerDropSelfLootTable;
+                    register.accept(getResultBlock(variant, type, false));
+                    if(variant.getStrippedLog() != null)
+                    {
+                        register.accept(getResultBlock(variant, type, true));
+                    }
+                }
+            }
         }
 
         public void registerCoffeeTable(Block block)
         {
             this.registerLootTable(block, coffeeTable -> LootTable.builder().addLootPool(LootPool.builder().rolls(ConstantRange.of(1)).addEntry(withSurvivesExplosion(block, ItemLootEntry.builder(coffeeTable).acceptFunction(SetCount.builder(ConstantRange.of(2)).acceptCondition(BlockStateProperty.builder(coffeeTable).fromProperties(StatePropertiesPredicate.Builder.newBuilder().withBoolProp(CoffeeTableBlock.TALL, true))))))));
-        }
-
-        public void registerTrampoline(Block block)
-        {
-            this.registerLootTable(block, trampoline -> LootTable.builder().addLootPool(LootPool.builder().rolls(ConstantRange.of(1)).addEntry(ItemLootEntry.builder(trampoline).acceptFunction(CopyName.builder(CopyName.Source.BLOCK_ENTITY)).acceptFunction(CopyNbt.builder(CopyNbt.Source.BLOCK_ENTITY).replaceOperation("BlockEntityTag.Count", "")))));
         }
 
         @Override
