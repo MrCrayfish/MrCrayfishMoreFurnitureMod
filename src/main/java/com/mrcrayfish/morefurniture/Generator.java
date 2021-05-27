@@ -126,6 +126,49 @@ public class Generator
             e.printStackTrace();
         }
 
+        /* ||||||||||||||| Generate Colors code ||||||||||||||| */
+        try(BufferedWriter writer = IOUtils.buffer(new FileWriter("Colors.txt")))
+        {
+            FurnitureType[] types = {CRATE, KITCHEN_COUNTER, KITCHEN_SINK_LIGHT, KITCHEN_SINK_DARK};
+            for(FurnitureType type : types)
+            {
+                for(Variant variant : this.registeredVariants)
+                {
+                    String blockRegistryObject = String.format("registerStrippedColorsOne(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    writer.write(blockRegistryObject);
+                    writer.newLine();
+                }
+            }
+
+            for(FurnitureType type : types)
+            {
+                for(Variant variant : this.registeredVariants)
+                {
+                    String blockRegistryObject = String.format("registerStrippedColorsOne(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    writer.write(blockRegistryObject);
+                    writer.write("\n");
+                }
+            }
+
+            for(Variant variant : this.registeredVariants)
+            {
+                String blockRegistryObject = String.format("registerStrippedColorsTwo(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), PARK_BENCH.id.toUpperCase(), variant.id.toUpperCase());
+                writer.write(blockRegistryObject);
+                writer.write("\n");
+            }
+
+            for(Variant variant : this.registeredVariants)
+            {
+                String blockRegistryObject = String.format("registerStrippedColorsTwo(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), PARK_BENCH.id.toUpperCase(), variant.id.toUpperCase());
+                writer.write(blockRegistryObject);
+                writer.write("\n");
+            }
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+
         /* ||||||||||||||| Generate lang file ||||||||||||||| */
         try(BufferedWriter writer = IOUtils.buffer(new FileWriter("en_us.json")))
         {
