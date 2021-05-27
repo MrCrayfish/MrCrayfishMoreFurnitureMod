@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:willow_log"
+    },
+    "P": {
+      "item": "biomesoplenty:willow_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_willow_crate",
+    "count": 2
+  }
+}

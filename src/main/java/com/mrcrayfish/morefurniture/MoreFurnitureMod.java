@@ -34,7 +34,6 @@ public class MoreFurnitureMod
         eventBus.addListener(this::onCommonSetup);
         eventBus.addListener(this::onClientSetup);
         eventBus.addListener(this::onDataSetup);
-        eventBus.addListener(this::onFinishedLoading);
         MinecraftForge.EVENT_BUS.register(new ModCommands());
     }
 
@@ -46,11 +45,6 @@ public class MoreFurnitureMod
     private void onClientSetup(FMLClientSetupEvent event)
     {
         ClientHandler.setup();
-    }
-
-    private void onFinishedLoading(FMLLoadCompleteEvent event)
-    {
-        new Generator().generate();
     }
 
     private void onDataSetup(GatherDataEvent event)

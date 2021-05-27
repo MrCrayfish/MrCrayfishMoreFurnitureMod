@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_drawer",
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:aspen_log"
+    },
+    "P": {
+      "item": "atmospheric:aspen_planks"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_aspen_kitchen_drawer",
+    "count": 4
+  }
+}

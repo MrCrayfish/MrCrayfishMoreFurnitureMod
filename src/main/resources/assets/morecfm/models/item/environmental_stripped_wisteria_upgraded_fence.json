@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "environmental:block/stripped_wisteria_log",
+        "middle": "environmental:block/wisteria_log",
+        "post": "environmental:block/stripped_wisteria_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "biomesoplenty:block/magic_log",
+        "box": "biomesoplenty:block/magic_planks"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_mahogany_log"
+    },
+    "P": {
+      "item": "biomesoplenty:mahogany_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_mahogany_chair",
+    "count": 4
+  }
+}

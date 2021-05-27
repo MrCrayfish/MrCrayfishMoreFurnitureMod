@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "park_bench",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:hellbark_log"
+    },
+    "P": {
+      "item": "biomesoplenty:hellbark_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_hellbark_park_bench",
+    "count": 4
+  }
+}

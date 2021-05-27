@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "biomesoplenty:block/stripped_magic_log",
+        "cord": "block/white_concrete"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "table",
+  "pattern": [
+    "LLL",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:mahogany_log"
+    },
+    "P": {
+      "item": "biomesoplenty:mahogany_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_mahogany_table",
+    "count": 4
+  }
+}

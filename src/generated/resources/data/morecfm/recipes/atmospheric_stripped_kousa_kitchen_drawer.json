@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_drawer",
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:kousa_log"
+    },
+    "P": {
+      "item": "atmospheric:stripped_kousa_log"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_kousa_kitchen_drawer",
+    "count": 4
+  }
+}

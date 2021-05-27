@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "environmental:block/stripped_wisteria_log",
+        "cord": "block/white_concrete"
+    }
+}

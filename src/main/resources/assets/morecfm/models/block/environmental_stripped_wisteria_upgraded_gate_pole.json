@@ -1,0 +1,6 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_pole",
+    "textures": {
+        "pole": "environmental:block/stripped_wisteria_log"
+    }
+}

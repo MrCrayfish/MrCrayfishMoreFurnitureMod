@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_single",
+    "textures": {
+        "base": "atmospheric:block/rosewood_planks",
+        "top": "atmospheric:block/rosewood_log",
+        "legs": "atmospheric:block/rosewood_planks"
+    }
+}

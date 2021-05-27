@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "atmospheric:block/rosewood_log",
+        "legs": "atmospheric:block/stripped_rosewood_log"
+    }
+}

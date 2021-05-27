@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:stripped_grimwood_log"
+    },
+    "P": {
+      "item": "atmospheric:grimwood_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_grimwood_chair",
+    "count": 4
+  }
+}

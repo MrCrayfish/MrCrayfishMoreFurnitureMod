@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_none",
+    "textures": {
+        "top": "autumnity:block/stripped_maple_log",
+        "legs": "autumnity:block/maple_log"
+    }
+}

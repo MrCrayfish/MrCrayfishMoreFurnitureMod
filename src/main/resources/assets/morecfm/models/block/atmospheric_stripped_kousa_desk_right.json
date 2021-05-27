@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_right",
+    "textures": {
+        "base": "atmospheric:block/stripped_kousa_log",
+        "top": "atmospheric:block/stripped_kousa_log",
+        "legs": "atmospheric:block/kousa_log"
+    }
+}

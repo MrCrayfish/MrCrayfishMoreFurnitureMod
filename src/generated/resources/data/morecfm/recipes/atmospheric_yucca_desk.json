@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "desk",
+  "pattern": [
+    "LLL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:yucca_log"
+    },
+    "P": {
+      "item": "atmospheric:yucca_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_yucca_desk",
+    "count": 2
+  }
+}

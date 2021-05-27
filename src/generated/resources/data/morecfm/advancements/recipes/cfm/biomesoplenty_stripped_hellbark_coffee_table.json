@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "morecfm:biomesoplenty_stripped_hellbark_coffee_table"
+    ]
+  },
+  "criteria": {
+    "has_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biomesoplenty:stripped_hellbark_log"
+          }
+        ]
+      }
+    },
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biomesoplenty:hellbark_log"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morecfm:biomesoplenty_stripped_hellbark_coffee_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_log",
+      "has_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

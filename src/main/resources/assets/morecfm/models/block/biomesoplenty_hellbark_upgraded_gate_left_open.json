@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_left_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "biomesoplenty:block/hellbark_log",
+        "plank": "biomesoplenty:block/hellbark_planks"
+    }
+}

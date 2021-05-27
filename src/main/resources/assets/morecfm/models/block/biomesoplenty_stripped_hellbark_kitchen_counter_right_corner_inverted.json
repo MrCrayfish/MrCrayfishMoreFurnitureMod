@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner_inverted",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_hellbark_log",
+        "base": "biomesoplenty:block/stripped_hellbark_log"
+    }
+}

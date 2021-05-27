@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "atmospheric:block/yucca_log",
+        "base": "atmospheric:block/yucca_planks"
+    }
+}

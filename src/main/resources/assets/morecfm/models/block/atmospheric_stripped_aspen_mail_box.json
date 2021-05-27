@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "atmospheric:block/stripped_aspen_log",
+        "box": "atmospheric:block/aspen_log"
+    }
+}

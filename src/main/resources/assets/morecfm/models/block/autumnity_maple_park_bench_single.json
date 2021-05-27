@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_single",
+    "textures": {
+        "legs": "autumnity:block/maple_log",
+        "plank": "autumnity:block/maple_planks"
+    }
+}

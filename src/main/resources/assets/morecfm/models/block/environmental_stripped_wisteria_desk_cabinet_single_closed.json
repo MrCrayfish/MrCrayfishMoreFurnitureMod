@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_closed",
+    "textures": {
+        "top": "environmental:block/stripped_wisteria_log",
+        "base": "environmental:block/stripped_wisteria_log",
+        "draw_front": "environmental:block/wisteria_log",
+        "legs": "environmental:block/wisteria_log"
+    }
+}

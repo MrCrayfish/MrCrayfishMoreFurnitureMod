@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_mahogany_log"
+    },
+    "P": {
+      "item": "biomesoplenty:mahogany_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_mahogany_crate",
+    "count": 2
+  }
+}

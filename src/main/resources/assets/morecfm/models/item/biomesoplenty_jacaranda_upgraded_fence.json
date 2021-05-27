@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "biomesoplenty:block/jacaranda_planks",
+        "middle": "biomesoplenty:block/jacaranda_log"
+    }
+}

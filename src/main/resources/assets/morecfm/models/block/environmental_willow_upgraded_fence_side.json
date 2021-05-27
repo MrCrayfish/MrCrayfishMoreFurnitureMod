@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "environmental:block/willow_planks",
+        "middle": "environmental:block/willow_log"
+    }
+}

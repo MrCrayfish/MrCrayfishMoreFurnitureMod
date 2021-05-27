@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_middle",
+    "textures": {
+        "legs": "atmospheric:block/kousa_log",
+        "plank": "atmospheric:block/kousa_planks"
+    }
+}

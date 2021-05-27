@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_counter",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:willow_log"
+    },
+    "P": {
+      "item": "environmental:willow_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_willow_kitchen_counter",
+    "count": 8
+  }
+}

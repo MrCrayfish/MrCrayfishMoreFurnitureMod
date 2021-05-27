@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blinds",
+  "pattern": [
+    "LLL",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:stripped_morado_log"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_morado_blinds",
+    "count": 2
+  }
+}

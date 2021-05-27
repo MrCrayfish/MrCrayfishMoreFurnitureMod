@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/crate_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "panel": "biomesoplenty:block/dead_planks",
+        "frame": "biomesoplenty:block/dead_log"
+    }
+}

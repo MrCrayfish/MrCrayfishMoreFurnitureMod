@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "atmospheric:block/stripped_kousa_log",
+        "legs": "atmospheric:block/kousa_log"
+    }
+}

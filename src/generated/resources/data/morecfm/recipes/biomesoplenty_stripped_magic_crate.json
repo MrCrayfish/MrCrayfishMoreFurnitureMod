@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_magic_log"
+    },
+    "P": {
+      "item": "biomesoplenty:magic_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_magic_crate",
+    "count": 2
+  }
+}

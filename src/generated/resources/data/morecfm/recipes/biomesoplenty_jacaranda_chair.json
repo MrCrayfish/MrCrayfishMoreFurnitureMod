@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:jacaranda_log"
+    },
+    "P": {
+      "item": "biomesoplenty:jacaranda_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_jacaranda_chair",
+    "count": 4
+  }
+}

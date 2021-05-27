@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "environmental:block/willow_log",
+        "base": "environmental:block/willow_planks"
+    }
+}

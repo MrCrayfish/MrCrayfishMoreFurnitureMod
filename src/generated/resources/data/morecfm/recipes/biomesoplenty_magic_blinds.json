@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blinds",
+  "pattern": [
+    "LLL",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:magic_log"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_magic_blinds",
+    "count": 2
+  }
+}

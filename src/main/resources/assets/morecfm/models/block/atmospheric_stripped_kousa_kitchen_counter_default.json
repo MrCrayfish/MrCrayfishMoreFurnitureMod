@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "top": "atmospheric:block/stripped_kousa_log",
+        "base": "atmospheric:block/stripped_kousa_log"
+    }
+}

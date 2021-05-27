@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner",
+    "textures": {
+        "top": "biomesoplenty:block/dead_log",
+        "base": "biomesoplenty:block/dead_planks"
+    }
+}

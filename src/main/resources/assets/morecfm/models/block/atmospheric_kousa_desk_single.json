@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_single",
+    "textures": {
+        "base": "atmospheric:block/kousa_planks",
+        "top": "atmospheric:block/kousa_log",
+        "legs": "atmospheric:block/kousa_planks"
+    }
+}

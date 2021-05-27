@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "environmental:block/stripped_cherry_log",
+        "top": "environmental:block/stripped_cherry_log",
+        "draw": "environmental:block/stripped_cherry_log",
+        "draw_front": "environmental:block/cherry_log"
+    }
+}

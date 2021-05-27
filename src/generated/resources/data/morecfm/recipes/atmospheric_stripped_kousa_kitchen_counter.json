@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_counter",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:kousa_log"
+    },
+    "P": {
+      "item": "atmospheric:stripped_kousa_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_kousa_kitchen_counter",
+    "count": 8
+  }
+}

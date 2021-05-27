@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_single",
+    "textures": {
+        "legs": "atmospheric:block/rosewood_log",
+        "plank": "atmospheric:block/rosewood_planks"
+    }
+}

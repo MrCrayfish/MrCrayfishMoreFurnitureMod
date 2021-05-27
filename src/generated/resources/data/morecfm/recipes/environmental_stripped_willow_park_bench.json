@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "park_bench",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:willow_log"
+    },
+    "P": {
+      "item": "environmental:stripped_willow_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_stripped_willow_park_bench",
+    "count": 4
+  }
+}

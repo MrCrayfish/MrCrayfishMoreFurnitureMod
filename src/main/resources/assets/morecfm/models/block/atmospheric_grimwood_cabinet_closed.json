@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "atmospheric:block/grimwood_log",
+        "base": "atmospheric:block/grimwood_planks"
+    }
+}

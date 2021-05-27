@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_single",
+    "textures": {
+        "legs": "biomesoplenty:block/willow_log",
+        "plank": "biomesoplenty:block/willow_planks"
+    }
+}

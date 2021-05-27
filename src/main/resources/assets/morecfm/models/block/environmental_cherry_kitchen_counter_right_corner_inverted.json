@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner_inverted",
+    "textures": {
+        "top": "environmental:block/cherry_log",
+        "base": "environmental:block/cherry_planks"
+    }
+}

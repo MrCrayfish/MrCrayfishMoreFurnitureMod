@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_all",
+    "textures": {
+        "top": "atmospheric:block/stripped_rosewood_log",
+        "legs": "atmospheric:block/rosewood_log"
+    }
+}

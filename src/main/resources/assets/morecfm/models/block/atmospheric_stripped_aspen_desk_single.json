@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_single",
+    "textures": {
+        "base": "atmospheric:block/stripped_aspen_log",
+        "top": "atmospheric:block/stripped_aspen_log",
+        "legs": "atmospheric:block/aspen_log"
+    }
+}

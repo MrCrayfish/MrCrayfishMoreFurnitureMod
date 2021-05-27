@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "autumnity:block/stripped_maple_log",
+        "middle": "autumnity:block/maple_log",
+        "post": "autumnity:block/stripped_maple_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_right",
+    "textures": {
+        "legs": "environmental:block/willow_log",
+        "plank": "environmental:block/willow_planks"
+    }
+}

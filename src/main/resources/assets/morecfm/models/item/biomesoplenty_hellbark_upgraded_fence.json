@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "biomesoplenty:block/hellbark_planks",
+        "middle": "biomesoplenty:block/hellbark_log"
+    }
+}

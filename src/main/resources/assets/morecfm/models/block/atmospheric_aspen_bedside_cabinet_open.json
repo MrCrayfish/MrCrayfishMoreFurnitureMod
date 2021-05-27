@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "atmospheric:block/aspen_planks",
+        "top": "atmospheric:block/aspen_log",
+        "draw": "atmospheric:block/stripped_aspen_log",
+        "draw_front": "atmospheric:block/aspen_log"
+    }
+}

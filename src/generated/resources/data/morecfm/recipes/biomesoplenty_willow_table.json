@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "table",
+  "pattern": [
+    "LLL",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:willow_log"
+    },
+    "P": {
+      "item": "biomesoplenty:willow_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_willow_table",
+    "count": 4
+  }
+}

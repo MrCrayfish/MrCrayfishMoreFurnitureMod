@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_all",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_hellbark_log",
+        "legs": "biomesoplenty:block/hellbark_log"
+    }
+}

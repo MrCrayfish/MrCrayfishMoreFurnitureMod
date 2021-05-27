@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "autumnity:block/maple_planks",
+        "cord": "autumnity:block/maple_log"
+    }
+}

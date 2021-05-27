@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "atmospheric:block/morado_planks",
+        "top": "atmospheric:block/morado_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_single",
+    "textures": {
+        "legs": "atmospheric:block/morado_log",
+        "plank": "atmospheric:block/morado_planks"
+    }
+}

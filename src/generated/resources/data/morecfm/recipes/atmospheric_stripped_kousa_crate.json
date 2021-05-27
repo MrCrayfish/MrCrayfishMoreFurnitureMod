@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:stripped_kousa_log"
+    },
+    "P": {
+      "item": "atmospheric:kousa_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_kousa_crate",
+    "count": 2
+  }
+}

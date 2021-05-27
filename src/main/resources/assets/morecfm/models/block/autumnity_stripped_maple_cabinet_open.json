@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "autumnity:block/maple_log",
+        "base": "autumnity:block/stripped_maple_log"
+    }
+}

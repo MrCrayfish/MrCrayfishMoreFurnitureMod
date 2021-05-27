@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "desk",
+  "pattern": [
+    "LLL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:rosewood_log"
+    },
+    "P": {
+      "item": "atmospheric:rosewood_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_rosewood_desk",
+    "count": 2
+  }
+}

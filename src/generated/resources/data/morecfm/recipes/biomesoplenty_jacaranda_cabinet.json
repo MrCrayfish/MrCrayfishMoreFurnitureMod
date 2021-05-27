@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cabinet",
+  "pattern": [
+    "PPL",
+    "P L",
+    "PPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:jacaranda_log"
+    },
+    "P": {
+      "item": "biomesoplenty:jacaranda_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_jacaranda_cabinet",
+    "count": 2
+  }
+}

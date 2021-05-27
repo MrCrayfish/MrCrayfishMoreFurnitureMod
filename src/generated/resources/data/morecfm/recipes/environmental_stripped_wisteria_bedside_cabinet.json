@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bedside_cabinet",
+  "pattern": [
+    "LLL",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:stripped_wisteria_log"
+    },
+    "P": {
+      "item": "environmental:wisteria_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_stripped_wisteria_bedside_cabinet",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_counter",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:redwood_log"
+    },
+    "P": {
+      "item": "biomesoplenty:redwood_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_redwood_kitchen_counter",
+    "count": 8
+  }
+}

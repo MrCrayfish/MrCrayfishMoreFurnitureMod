@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "atmospheric:block/rosewood_log",
+        "box": "atmospheric:block/rosewood_planks"
+    }
+}

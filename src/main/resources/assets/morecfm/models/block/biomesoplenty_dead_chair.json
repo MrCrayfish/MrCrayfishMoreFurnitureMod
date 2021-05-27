@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "biomesoplenty:block/dead_log",
+        "legs": "biomesoplenty:block/stripped_dead_log"
+    }
+}

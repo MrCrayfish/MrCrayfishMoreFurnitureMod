@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "atmospheric:block/stripped_rosewood_log",
+        "middle": "atmospheric:block/rosewood_log",
+        "post": "atmospheric:block/stripped_rosewood_log"
+    }
+}

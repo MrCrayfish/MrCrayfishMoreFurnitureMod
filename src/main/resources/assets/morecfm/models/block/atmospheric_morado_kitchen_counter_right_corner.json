@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner",
+    "textures": {
+        "top": "atmospheric:block/morado_log",
+        "base": "atmospheric:block/morado_planks"
+    }
+}

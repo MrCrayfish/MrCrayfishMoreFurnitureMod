@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_left_open",
+    "textures": {
+        "hinge": "environmental:block/wisteria_log",
+        "pole": "environmental:block/wisteria_planks",
+        "plank": "environmental:block/stripped_wisteria_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "atmospheric:block/yucca_planks",
+        "top": "atmospheric:block/yucca_log"
+    }
+}

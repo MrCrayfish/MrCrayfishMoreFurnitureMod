@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_closed",
+    "textures": {
+        "top": "autumnity:block/maple_log",
+        "base": "autumnity:block/maple_planks",
+        "draw_front": "autumnity:block/maple_log",
+        "legs": "autumnity:block/maple_planks"
+    }
+}

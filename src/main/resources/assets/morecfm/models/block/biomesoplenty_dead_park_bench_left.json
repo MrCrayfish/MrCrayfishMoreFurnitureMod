@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "biomesoplenty:block/dead_log",
+        "plank": "biomesoplenty:block/dead_planks"
+    }
+}

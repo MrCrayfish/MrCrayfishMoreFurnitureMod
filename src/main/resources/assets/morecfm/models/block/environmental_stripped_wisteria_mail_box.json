@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "environmental:block/stripped_wisteria_log",
+        "box": "environmental:block/wisteria_log"
+    }
+}

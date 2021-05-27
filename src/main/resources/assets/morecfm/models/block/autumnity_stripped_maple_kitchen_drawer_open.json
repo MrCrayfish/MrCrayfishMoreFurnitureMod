@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "autumnity:block/stripped_maple_log",
+        "base": "autumnity:block/stripped_maple_log"
+    }
+}

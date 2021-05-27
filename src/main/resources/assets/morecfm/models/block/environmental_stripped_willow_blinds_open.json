@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_open",
+    "textures": {
+        "head_rail": "environmental:block/stripped_willow_log",
+        "slat": "environmental:block/willow_planks",
+        "cord": "environmental:block/willow_log"
+    }
+}

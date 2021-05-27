@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "biomesoplenty:block/willow_planks",
+        "top": "biomesoplenty:block/willow_log",
+        "draw": "biomesoplenty:block/stripped_willow_log",
+        "draw_front": "biomesoplenty:block/willow_log"
+    }
+}

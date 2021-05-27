@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner_inverted",
+    "textures": {
+        "top": "biomesoplenty:block/willow_log",
+        "base": "biomesoplenty:block/willow_planks"
+    }
+}

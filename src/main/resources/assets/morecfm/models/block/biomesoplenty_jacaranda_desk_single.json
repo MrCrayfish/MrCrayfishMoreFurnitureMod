@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_single",
+    "textures": {
+        "base": "biomesoplenty:block/jacaranda_planks",
+        "top": "biomesoplenty:block/jacaranda_log",
+        "legs": "biomesoplenty:block/jacaranda_planks"
+    }
+}

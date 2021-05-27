@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "biomesoplenty:block/dead_log",
+        "base": "biomesoplenty:block/dead_planks"
+    }
+}

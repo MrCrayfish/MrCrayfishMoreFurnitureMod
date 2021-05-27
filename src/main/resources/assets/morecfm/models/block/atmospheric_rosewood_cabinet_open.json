@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "atmospheric:block/rosewood_log",
+        "base": "atmospheric:block/rosewood_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "atmospheric:block/aspen_planks",
+        "cord": "atmospheric:block/aspen_log"
+    }
+}

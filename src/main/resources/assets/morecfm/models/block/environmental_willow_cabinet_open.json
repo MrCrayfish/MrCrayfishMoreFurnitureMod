@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "environmental:block/willow_log",
+        "base": "environmental:block/willow_planks"
+    }
+}

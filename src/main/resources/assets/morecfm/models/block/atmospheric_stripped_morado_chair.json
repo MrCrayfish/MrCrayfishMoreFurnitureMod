@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "atmospheric:block/stripped_morado_log",
+        "legs": "atmospheric:block/morado_log"
+    }
+}

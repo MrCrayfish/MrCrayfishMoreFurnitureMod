@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_double_left_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "atmospheric:block/yucca_log",
+        "plank": "atmospheric:block/yucca_planks"
+    }
+}

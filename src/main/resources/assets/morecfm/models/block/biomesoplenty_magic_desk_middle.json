@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "biomesoplenty:block/magic_planks",
+        "top": "biomesoplenty:block/magic_log"
+    }
+}

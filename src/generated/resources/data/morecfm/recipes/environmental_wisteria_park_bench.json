@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "park_bench",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:wisteria_log"
+    },
+    "P": {
+      "item": "environmental:wisteria_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_wisteria_park_bench",
+    "count": 4
+  }
+}

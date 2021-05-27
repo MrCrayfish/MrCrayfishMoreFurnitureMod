@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "atmospheric:block/morado_log",
+        "base": "atmospheric:block/morado_planks"
+    }
+}

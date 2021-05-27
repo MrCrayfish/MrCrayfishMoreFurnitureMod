@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "desk_cabinet",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "autumnity:maple_log"
+    },
+    "P": {
+      "item": "autumnity:maple_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:autumnity_maple_desk_cabinet",
+    "count": 2
+  }
+}

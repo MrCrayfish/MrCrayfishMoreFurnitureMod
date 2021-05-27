@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "environmental:block/willow_planks",
+        "top": "environmental:block/willow_log"
+    }
+}

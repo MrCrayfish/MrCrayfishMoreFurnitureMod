@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "atmospheric:block/kousa_planks",
+        "cord": "atmospheric:block/kousa_log"
+    }
+}

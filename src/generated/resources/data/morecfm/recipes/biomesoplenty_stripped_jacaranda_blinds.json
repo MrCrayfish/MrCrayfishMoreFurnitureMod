@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blinds",
+  "pattern": [
+    "LLL",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_jacaranda_blinds",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "top": "biomesoplenty:block/magic_log",
+        "base": "biomesoplenty:block/magic_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "environmental:block/cherry_planks",
+        "cord": "environmental:block/cherry_log"
+    }
+}

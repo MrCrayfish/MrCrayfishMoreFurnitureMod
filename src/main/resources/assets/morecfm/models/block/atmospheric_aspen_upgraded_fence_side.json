@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "atmospheric:block/aspen_planks",
+        "middle": "atmospheric:block/aspen_log"
+    }
+}

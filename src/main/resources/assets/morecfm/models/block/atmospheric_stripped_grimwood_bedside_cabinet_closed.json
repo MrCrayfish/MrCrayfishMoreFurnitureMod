@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "atmospheric:block/stripped_grimwood_log",
+        "top": "atmospheric:block/stripped_grimwood_log",
+        "draw_front": "atmospheric:block/grimwood_log"
+    }
+}

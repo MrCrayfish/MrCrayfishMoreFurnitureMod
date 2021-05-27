@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_cherry_log",
+        "legs": "biomesoplenty:block/cherry_log"
+    }
+}

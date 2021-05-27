@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_drawer",
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:morado_log"
+    },
+    "P": {
+      "item": "atmospheric:stripped_morado_log"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_morado_kitchen_drawer",
+    "count": 4
+  }
+}

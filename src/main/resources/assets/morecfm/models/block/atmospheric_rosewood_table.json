@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table",
+    "textures": {
+        "top": "atmospheric:block/rosewood_log",
+        "legs": "block/stripped_oak_log"
+    }
+}

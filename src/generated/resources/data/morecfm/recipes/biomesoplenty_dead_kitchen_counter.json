@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_counter",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:dead_log"
+    },
+    "P": {
+      "item": "biomesoplenty:dead_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_dead_kitchen_counter",
+    "count": 8
+  }
+}

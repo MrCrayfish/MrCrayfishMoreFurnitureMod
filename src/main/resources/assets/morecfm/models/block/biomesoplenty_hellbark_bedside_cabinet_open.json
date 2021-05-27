@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "biomesoplenty:block/hellbark_planks",
+        "top": "biomesoplenty:block/hellbark_log",
+        "draw": "biomesoplenty:block/stripped_hellbark_log",
+        "draw_front": "biomesoplenty:block/hellbark_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_two",
+    "textures": {
+        "top": "atmospheric:block/stripped_morado_log",
+        "legs": "atmospheric:block/morado_log"
+    }
+}

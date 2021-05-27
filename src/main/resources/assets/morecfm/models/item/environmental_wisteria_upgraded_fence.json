@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "environmental:block/wisteria_planks",
+        "middle": "environmental:block/wisteria_log"
+    }
+}

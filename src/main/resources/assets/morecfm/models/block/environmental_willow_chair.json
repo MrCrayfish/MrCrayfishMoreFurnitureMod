@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "environmental:block/willow_log",
+        "legs": "environmental:block/stripped_willow_log"
+    }
+}

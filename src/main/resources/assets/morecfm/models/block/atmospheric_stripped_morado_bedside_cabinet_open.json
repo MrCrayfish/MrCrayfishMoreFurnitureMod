@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "atmospheric:block/stripped_morado_log",
+        "top": "atmospheric:block/stripped_morado_log",
+        "draw": "atmospheric:block/stripped_morado_log",
+        "draw_front": "atmospheric:block/morado_log"
+    }
+}

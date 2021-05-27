@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:cherry_log"
+    },
+    "P": {
+      "item": "biomesoplenty:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_cherry_chair",
+    "count": 4
+  }
+}

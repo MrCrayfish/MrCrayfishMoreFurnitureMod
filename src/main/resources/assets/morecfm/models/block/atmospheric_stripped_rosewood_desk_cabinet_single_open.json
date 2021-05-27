@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "atmospheric:block/stripped_rosewood_log",
+        "base": "atmospheric:block/stripped_rosewood_log",
+        "draw": "atmospheric:block/stripped_rosewood_log",
+        "draw_front": "atmospheric:block/rosewood_log",
+        "legs": "atmospheric:block/rosewood_log"
+    }
+}

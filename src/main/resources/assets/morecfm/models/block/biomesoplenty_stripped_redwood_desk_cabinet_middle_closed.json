@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_redwood_log",
+        "base": "biomesoplenty:block/stripped_redwood_log",
+        "draw_front": "biomesoplenty:block/redwood_log"
+    }
+}

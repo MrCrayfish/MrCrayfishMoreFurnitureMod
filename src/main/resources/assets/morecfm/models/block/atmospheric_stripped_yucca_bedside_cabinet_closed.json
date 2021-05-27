@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "atmospheric:block/stripped_yucca_log",
+        "top": "atmospheric:block/stripped_yucca_log",
+        "draw_front": "atmospheric:block/yucca_log"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:kousa_log"
+    },
+    "P": {
+      "item": "atmospheric:kousa_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_kousa_chair",
+    "count": 4
+  }
+}

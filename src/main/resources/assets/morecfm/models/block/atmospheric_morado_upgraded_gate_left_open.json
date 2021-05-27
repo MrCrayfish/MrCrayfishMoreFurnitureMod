@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_left_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "atmospheric:block/morado_log",
+        "plank": "atmospheric:block/morado_planks"
+    }
+}

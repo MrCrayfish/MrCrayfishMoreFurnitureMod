@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner",
+    "textures": {
+        "top": "atmospheric:block/stripped_morado_log",
+        "base": "atmospheric:block/stripped_morado_log"
+    }
+}

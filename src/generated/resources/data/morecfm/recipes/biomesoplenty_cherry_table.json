@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "table",
+  "pattern": [
+    "LLL",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:cherry_log"
+    },
+    "P": {
+      "item": "biomesoplenty:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_cherry_table",
+    "count": 4
+  }
+}

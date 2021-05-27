@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cabinet",
+  "pattern": [
+    "PPL",
+    "P L",
+    "PPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:fir_log"
+    },
+    "P": {
+      "item": "biomesoplenty:fir_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_fir_cabinet",
+    "count": 2
+  }
+}

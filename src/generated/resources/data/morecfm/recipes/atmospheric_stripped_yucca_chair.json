@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:stripped_yucca_log"
+    },
+    "P": {
+      "item": "atmospheric:yucca_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_yucca_chair",
+    "count": 4
+  }
+}

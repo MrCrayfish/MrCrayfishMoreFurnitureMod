@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/crate_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "panel": "atmospheric:block/yucca_planks",
+        "frame": "atmospheric:block/yucca_log"
+    }
+}

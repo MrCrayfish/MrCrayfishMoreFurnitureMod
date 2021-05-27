@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner",
+    "textures": {
+        "top": "environmental:block/stripped_wisteria_log",
+        "base": "environmental:block/stripped_wisteria_log"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "atmospheric:block/stripped_kousa_log",
+        "base": "atmospheric:block/stripped_kousa_log",
+        "draw": "atmospheric:block/stripped_kousa_log",
+        "draw_front": "atmospheric:block/kousa_log",
+        "legs": "atmospheric:block/kousa_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "environmental:block/wisteria_planks",
+        "top": "environmental:block/wisteria_log"
+    }
+}

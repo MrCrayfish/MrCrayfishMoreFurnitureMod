@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_open",
+    "textures": {
+        "head_rail": "biomesoplenty:block/stripped_umbran_log",
+        "slat": "biomesoplenty:block/umbran_planks",
+        "cord": "biomesoplenty:block/umbran_log"
+    }
+}

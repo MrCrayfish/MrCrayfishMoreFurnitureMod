@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "atmospheric:block/grimwood_planks",
+        "top": "atmospheric:block/grimwood_log"
+    }
+}

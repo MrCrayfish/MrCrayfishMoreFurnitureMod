@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "table",
+  "pattern": [
+    "LLL",
+    " P ",
+    " P "
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:stripped_kousa_log"
+    },
+    "P": {
+      "item": "atmospheric:kousa_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_kousa_table",
+    "count": 4
+  }
+}

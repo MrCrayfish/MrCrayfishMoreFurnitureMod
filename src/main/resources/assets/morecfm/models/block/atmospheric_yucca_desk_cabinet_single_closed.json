@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_closed",
+    "textures": {
+        "top": "atmospheric:block/yucca_log",
+        "base": "atmospheric:block/yucca_planks",
+        "draw_front": "atmospheric:block/yucca_log",
+        "legs": "atmospheric:block/yucca_planks"
+    }
+}

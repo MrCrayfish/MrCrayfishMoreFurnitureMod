@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_left_open",
+    "textures": {
+        "top": "autumnity:block/stripped_maple_log",
+        "base": "autumnity:block/stripped_maple_log",
+        "draw": "autumnity:block/stripped_maple_log",
+        "draw_front": "autumnity:block/maple_log",
+        "legs": "autumnity:block/maple_log"
+    }
+}

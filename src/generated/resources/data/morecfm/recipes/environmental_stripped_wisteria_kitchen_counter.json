@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_counter",
+  "pattern": [
+    "LLL",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:wisteria_log"
+    },
+    "P": {
+      "item": "environmental:stripped_wisteria_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_stripped_wisteria_kitchen_counter",
+    "count": 8
+  }
+}

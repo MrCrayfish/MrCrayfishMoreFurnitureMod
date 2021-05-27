@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_two",
+    "textures": {
+        "top": "environmental:block/stripped_wisteria_log",
+        "legs": "environmental:block/wisteria_log"
+    }
+}

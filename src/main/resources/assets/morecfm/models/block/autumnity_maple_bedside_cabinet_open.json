@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "autumnity:block/maple_planks",
+        "top": "autumnity:block/maple_log",
+        "draw": "autumnity:block/stripped_maple_log",
+        "draw_front": "autumnity:block/maple_log"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:cherry_log"
+    },
+    "P": {
+      "item": "environmental:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_cherry_chair",
+    "count": 4
+  }
+}

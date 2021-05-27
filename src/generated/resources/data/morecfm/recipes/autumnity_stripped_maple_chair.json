@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "autumnity:stripped_maple_log"
+    },
+    "P": {
+      "item": "autumnity:maple_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:autumnity_stripped_maple_chair",
+    "count": 4
+  }
+}

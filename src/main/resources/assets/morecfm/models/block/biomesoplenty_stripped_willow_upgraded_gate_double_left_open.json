@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_double_left_open",
+    "textures": {
+        "hinge": "biomesoplenty:block/willow_log",
+        "pole": "biomesoplenty:block/willow_planks",
+        "plank": "biomesoplenty:block/stripped_willow_log"
+    }
+}

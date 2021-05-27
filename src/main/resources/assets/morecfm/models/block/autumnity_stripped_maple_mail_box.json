@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "autumnity:block/stripped_maple_log",
+        "box": "autumnity:block/maple_log"
+    }
+}

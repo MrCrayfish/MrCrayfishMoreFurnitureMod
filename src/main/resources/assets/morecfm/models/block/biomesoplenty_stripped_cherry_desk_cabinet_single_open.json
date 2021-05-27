@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_cherry_log",
+        "base": "biomesoplenty:block/stripped_cherry_log",
+        "draw": "biomesoplenty:block/stripped_cherry_log",
+        "draw_front": "biomesoplenty:block/cherry_log",
+        "legs": "biomesoplenty:block/cherry_log"
+    }
+}

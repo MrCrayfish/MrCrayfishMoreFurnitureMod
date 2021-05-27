@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "biomesoplenty:block/willow_log",
+        "base": "biomesoplenty:block/stripped_willow_log"
+    }
+}

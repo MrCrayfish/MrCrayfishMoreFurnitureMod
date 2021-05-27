@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_drawer",
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:mahogany_log"
+    },
+    "P": {
+      "item": "biomesoplenty:stripped_mahogany_log"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_mahogany_kitchen_drawer",
+    "count": 4
+  }
+}

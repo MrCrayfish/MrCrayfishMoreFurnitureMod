@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chair",
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_dead_log"
+    },
+    "P": {
+      "item": "biomesoplenty:dead_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_dead_chair",
+    "count": 4
+  }
+}

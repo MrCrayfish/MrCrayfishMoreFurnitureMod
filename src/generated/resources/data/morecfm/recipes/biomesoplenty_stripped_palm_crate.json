@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:stripped_palm_log"
+    },
+    "P": {
+      "item": "biomesoplenty:palm_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_palm_crate",
+    "count": 2
+  }
+}

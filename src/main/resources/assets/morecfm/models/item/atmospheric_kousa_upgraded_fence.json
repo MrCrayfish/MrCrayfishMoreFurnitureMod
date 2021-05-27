@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "atmospheric:block/kousa_planks",
+        "middle": "atmospheric:block/kousa_log"
+    }
+}

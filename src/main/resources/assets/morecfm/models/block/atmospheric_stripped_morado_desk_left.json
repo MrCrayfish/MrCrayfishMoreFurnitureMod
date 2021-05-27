@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_left",
+    "textures": {
+        "base": "atmospheric:block/stripped_morado_log",
+        "top": "atmospheric:block/stripped_morado_log",
+        "legs": "atmospheric:block/morado_log"
+    }
+}

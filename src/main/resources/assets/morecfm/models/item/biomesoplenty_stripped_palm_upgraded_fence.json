@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "biomesoplenty:block/stripped_palm_log",
+        "middle": "biomesoplenty:block/palm_log",
+        "post": "biomesoplenty:block/stripped_palm_log"
+    }
+}

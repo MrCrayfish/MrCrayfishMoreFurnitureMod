@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_mahogany_log",
+        "base": "biomesoplenty:block/stripped_mahogany_log"
+    }
+}

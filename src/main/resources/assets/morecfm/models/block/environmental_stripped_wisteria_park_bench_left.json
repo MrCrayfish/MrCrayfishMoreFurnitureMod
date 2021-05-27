@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_left",
+    "textures": {
+        "legs": "environmental:block/stripped_wisteria_log",
+        "plank": "environmental:block/stripped_wisteria_log"
+    }
+}

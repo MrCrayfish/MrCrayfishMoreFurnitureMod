@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "atmospheric:block/stripped_rosewood_log",
+        "top": "atmospheric:block/stripped_rosewood_log",
+        "draw": "atmospheric:block/stripped_rosewood_log",
+        "draw_front": "atmospheric:block/rosewood_log"
+    }
+}

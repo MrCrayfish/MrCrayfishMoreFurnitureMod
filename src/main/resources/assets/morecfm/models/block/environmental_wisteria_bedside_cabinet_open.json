@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "environmental:block/wisteria_planks",
+        "top": "environmental:block/wisteria_log",
+        "draw": "environmental:block/stripped_wisteria_log",
+        "draw_front": "environmental:block/wisteria_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "biomesoplenty:block/dead_log",
+        "box": "biomesoplenty:block/dead_planks"
+    }
+}

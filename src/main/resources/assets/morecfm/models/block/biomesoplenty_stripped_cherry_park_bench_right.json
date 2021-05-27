@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_right",
+    "textures": {
+        "legs": "biomesoplenty:block/stripped_cherry_log",
+        "plank": "biomesoplenty:block/stripped_cherry_log"
+    }
+}

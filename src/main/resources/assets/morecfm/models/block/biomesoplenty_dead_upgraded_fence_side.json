@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "biomesoplenty:block/dead_planks",
+        "middle": "biomesoplenty:block/dead_log"
+    }
+}

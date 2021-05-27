@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "biomesoplenty:block/stripped_umbran_log",
+        "box": "biomesoplenty:block/umbran_log"
+    }
+}

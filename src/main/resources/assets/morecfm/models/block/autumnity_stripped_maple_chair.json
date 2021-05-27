@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "autumnity:block/stripped_maple_log",
+        "legs": "autumnity:block/maple_log"
+    }
+}

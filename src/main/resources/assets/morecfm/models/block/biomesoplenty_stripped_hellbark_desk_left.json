@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_left",
+    "textures": {
+        "base": "biomesoplenty:block/stripped_hellbark_log",
+        "top": "biomesoplenty:block/stripped_hellbark_log",
+        "legs": "biomesoplenty:block/hellbark_log"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "coffee_table",
+  "pattern": [
+    "LLL",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:jacaranda_log"
+    },
+    "P": {
+      "item": "biomesoplenty:jacaranda_planks"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_jacaranda_coffee_table",
+    "count": 4
+  }
+}

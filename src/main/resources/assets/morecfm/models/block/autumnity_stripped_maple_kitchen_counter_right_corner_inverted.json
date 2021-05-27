@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner_inverted",
+    "textures": {
+        "top": "autumnity:block/stripped_maple_log",
+        "base": "autumnity:block/stripped_maple_log"
+    }
+}

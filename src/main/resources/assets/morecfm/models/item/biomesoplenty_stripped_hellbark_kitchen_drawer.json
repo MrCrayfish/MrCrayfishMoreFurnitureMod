@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_hellbark_log",
+        "base": "biomesoplenty:block/stripped_hellbark_log"
+    }
+}

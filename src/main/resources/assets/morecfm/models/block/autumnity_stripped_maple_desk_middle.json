@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "autumnity:block/stripped_maple_log",
+        "top": "autumnity:block/stripped_maple_log"
+    }
+}

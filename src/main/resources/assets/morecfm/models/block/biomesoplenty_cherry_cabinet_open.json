@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "biomesoplenty:block/cherry_log",
+        "base": "biomesoplenty:block/cherry_planks"
+    }
+}

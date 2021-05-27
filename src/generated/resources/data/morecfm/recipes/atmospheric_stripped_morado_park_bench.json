@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "park_bench",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "atmospheric:morado_log"
+    },
+    "P": {
+      "item": "atmospheric:stripped_morado_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:atmospheric_stripped_morado_park_bench",
+    "count": 4
+  }
+}

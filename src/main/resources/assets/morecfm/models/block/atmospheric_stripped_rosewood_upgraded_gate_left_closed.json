@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_left_closed",
+    "textures": {
+        "hinge": "atmospheric:block/rosewood_log",
+        "pole": "atmospheric:block/rosewood_planks",
+        "plank": "atmospheric:block/stripped_rosewood_log"
+    }
+}

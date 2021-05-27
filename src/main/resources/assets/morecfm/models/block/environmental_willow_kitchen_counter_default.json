@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "top": "environmental:block/willow_log",
+        "base": "environmental:block/willow_planks"
+    }
+}

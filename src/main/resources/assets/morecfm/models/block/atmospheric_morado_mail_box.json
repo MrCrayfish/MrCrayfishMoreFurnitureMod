@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "atmospheric:block/morado_log",
+        "box": "atmospheric:block/morado_planks"
+    }
+}

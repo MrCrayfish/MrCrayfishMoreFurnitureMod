@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "biomesoplenty:block/stripped_mahogany_log",
+        "top": "biomesoplenty:block/stripped_mahogany_log",
+        "draw": "biomesoplenty:block/stripped_mahogany_log",
+        "draw_front": "biomesoplenty:block/mahogany_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_jacaranda_log",
+        "legs": "biomesoplenty:block/jacaranda_log"
+    }
+}

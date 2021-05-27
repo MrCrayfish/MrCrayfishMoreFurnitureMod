@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "environmental:block/stripped_wisteria_log",
+        "top": "environmental:block/stripped_wisteria_log"
+    }
+}

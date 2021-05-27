@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_none",
+    "textures": {
+        "top": "biomesoplenty:block/stripped_mahogany_log",
+        "legs": "biomesoplenty:block/mahogany_log"
+    }
+}

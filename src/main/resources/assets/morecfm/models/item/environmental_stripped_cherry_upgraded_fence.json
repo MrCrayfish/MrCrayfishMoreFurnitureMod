@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "environmental:block/stripped_cherry_log",
+        "middle": "environmental:block/cherry_log",
+        "post": "environmental:block/stripped_cherry_log"
+    }
+}

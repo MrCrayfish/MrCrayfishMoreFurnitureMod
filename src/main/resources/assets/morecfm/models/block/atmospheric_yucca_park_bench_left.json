@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "atmospheric:block/yucca_log",
+        "plank": "atmospheric:block/yucca_planks"
+    }
+}

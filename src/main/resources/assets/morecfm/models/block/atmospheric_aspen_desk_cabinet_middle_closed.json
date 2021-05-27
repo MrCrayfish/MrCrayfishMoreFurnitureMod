@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "atmospheric:block/aspen_log",
+        "base": "atmospheric:block/aspen_planks",
+        "draw_front": "atmospheric:block/aspen_log"
+    }
+}

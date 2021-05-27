@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kitchen_drawer",
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:cherry_log"
+    },
+    "P": {
+      "item": "biomesoplenty:cherry_planks"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_cherry_kitchen_drawer",
+    "count": 4
+  }
+}

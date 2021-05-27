@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_single",
+    "textures": {
+        "legs": "atmospheric:block/stripped_grimwood_log",
+        "plank": "atmospheric:block/stripped_grimwood_log"
+    }
+}

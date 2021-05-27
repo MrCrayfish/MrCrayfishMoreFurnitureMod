@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "biomesoplenty:block/jacaranda_log",
+        "base": "biomesoplenty:block/stripped_jacaranda_log"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "biomesoplenty:block/mahogany_log",
+        "base": "biomesoplenty:block/mahogany_planks",
+        "draw": "block/stripped_oak_log",
+        "draw_front": "biomesoplenty:block/mahogany_log",
+        "legs": "biomesoplenty:block/mahogany_planks"
+    }
+}

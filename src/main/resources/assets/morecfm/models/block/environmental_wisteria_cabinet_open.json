@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "environmental:block/wisteria_log",
+        "base": "environmental:block/wisteria_planks"
+    }
+}

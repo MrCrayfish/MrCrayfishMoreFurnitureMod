@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crate",
+  "pattern": [
+    "LPL",
+    "P P",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "environmental:stripped_wisteria_log"
+    },
+    "P": {
+      "item": "environmental:wisteria_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:environmental_stripped_wisteria_crate",
+    "count": 2
+  }
+}

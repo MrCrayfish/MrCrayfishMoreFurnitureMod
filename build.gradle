@@ -79,6 +79,7 @@ dependencies {
     compile fg.deobf('curse.maven:environmental-388992:3221635')
     compile fg.deobf('curse.maven:atmospheric-362393:3249309')
     compile fg.deobf('curse.maven:biomesoplenty-220318:3300293')
+    //provided fg.deobf('curse.maven:ohthebiomesyoullgo-247560:3302333')
 }
 
 processResources {

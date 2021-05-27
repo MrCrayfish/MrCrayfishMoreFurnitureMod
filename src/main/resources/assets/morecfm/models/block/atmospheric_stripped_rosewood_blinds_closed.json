@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_closed",
+    "textures": {
+        "head_rail": "atmospheric:block/stripped_rosewood_log",
+        "slat": "atmospheric:block/rosewood_planks",
+        "cord": "atmospheric:block/rosewood_log"
+    }
+}

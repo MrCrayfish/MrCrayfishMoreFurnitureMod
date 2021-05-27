@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "biomesoplenty:block/stripped_jacaranda_log",
+        "top": "biomesoplenty:block/stripped_jacaranda_log",
+        "draw": "biomesoplenty:block/stripped_jacaranda_log",
+        "draw_front": "biomesoplenty:block/jacaranda_log"
+    }
+}

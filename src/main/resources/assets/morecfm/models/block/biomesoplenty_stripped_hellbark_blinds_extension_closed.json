@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "biomesoplenty:block/hellbark_planks",
+        "cord": "biomesoplenty:block/hellbark_log"
+    }
+}

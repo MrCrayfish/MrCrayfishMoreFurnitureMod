@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "park_bench",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "biomesoplenty:magic_log"
+    },
+    "P": {
+      "item": "biomesoplenty:stripped_magic_log"
+    }
+  },
+  "result": {
+    "item": "morecfm:biomesoplenty_stripped_magic_park_bench",
+    "count": 4
+  }
+}

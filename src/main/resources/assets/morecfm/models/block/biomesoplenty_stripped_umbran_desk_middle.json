@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "biomesoplenty:block/stripped_umbran_log",
+        "top": "biomesoplenty:block/stripped_umbran_log"
+    }
+}

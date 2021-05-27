@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_left",
+    "textures": {
+        "legs": "atmospheric:block/stripped_morado_log",
+        "plank": "atmospheric:block/stripped_morado_log"
+    }
+}

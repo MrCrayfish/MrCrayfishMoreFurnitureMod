@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "atmospheric:block/morado_log",
+        "base": "atmospheric:block/morado_planks"
+    }
+}

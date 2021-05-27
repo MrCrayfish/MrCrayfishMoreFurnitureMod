@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "biomesoplenty:block/dead_log",
+        "base": "biomesoplenty:block/dead_planks"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_open",
+    "textures": {
+        "head_rail": "atmospheric:block/stripped_aspen_log",
+        "slat": "atmospheric:block/aspen_planks",
+        "cord": "atmospheric:block/aspen_log"
+    }
+}
