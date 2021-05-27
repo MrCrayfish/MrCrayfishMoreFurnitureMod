@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "desk",
-  "pattern": [
-    "LLL",
-    "P P",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:grimwood_log"
-    },
-    "P": {
-      "item": "atmospheric:grimwood_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:grimwood_log"
+          },
+          "P": {
+            "item": "atmospheric:grimwood_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_grimwood_desk",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_grimwood_desk",
-    "count": 2
-  }
+  ]
 }

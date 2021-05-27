@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "table",
-  "pattern": [
-    "LLL",
-    " P ",
-    " P "
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:hellbark_log"
-    },
-    "P": {
-      "item": "biomesoplenty:hellbark_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "table",
+        "pattern": [
+          "LLL",
+          " P ",
+          " P "
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:hellbark_log"
+          },
+          "P": {
+            "item": "biomesoplenty:hellbark_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_hellbark_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_hellbark_table",
-    "count": 4
-  }
+  ]
 }

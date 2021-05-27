@@ -1,7 +1,7 @@
 package com.mrcrayfish.morefurniture.init;
 
-import com.mrcrayfish.furniture.FurnitureMod;
 import com.mrcrayfish.furniture.block.*;
+import com.mrcrayfish.morefurniture.MoreFurnitureMod;
 import com.mrcrayfish.morefurniture.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -751,7 +751,7 @@ public class ModBlocks
     {
         if(ModList.get().isLoaded(modId))
         {
-            return register(name, block, new Item.Properties().group(FurnitureMod.GROUP));
+            return register(name, block, new Item.Properties().group(MoreFurnitureMod.GROUP));
         }
         return null;
     }

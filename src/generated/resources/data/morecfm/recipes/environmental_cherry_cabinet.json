@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "cabinet",
-  "pattern": [
-    "PPL",
-    "P L",
-    "PPL"
-  ],
-  "key": {
-    "L": {
-      "item": "environmental:cherry_log"
-    },
-    "P": {
-      "item": "environmental:cherry_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "environmental",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "cabinet",
+        "pattern": [
+          "PPL",
+          "P L",
+          "PPL"
+        ],
+        "key": {
+          "L": {
+            "item": "environmental:cherry_log"
+          },
+          "P": {
+            "item": "environmental:cherry_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:environmental_cherry_cabinet",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:environmental_cherry_cabinet",
-    "count": 2
-  }
+  ]
 }

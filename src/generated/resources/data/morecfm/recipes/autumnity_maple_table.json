@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "table",
-  "pattern": [
-    "LLL",
-    " P ",
-    " P "
-  ],
-  "key": {
-    "L": {
-      "item": "autumnity:maple_log"
-    },
-    "P": {
-      "item": "autumnity:maple_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "autumnity",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "table",
+        "pattern": [
+          "LLL",
+          " P ",
+          " P "
+        ],
+        "key": {
+          "L": {
+            "item": "autumnity:maple_log"
+          },
+          "P": {
+            "item": "autumnity:maple_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:autumnity_maple_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:autumnity_maple_table",
-    "count": 4
-  }
+  ]
 }

@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "coffee_table",
-  "pattern": [
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:stripped_kousa_log"
-    },
-    "P": {
-      "item": "atmospheric:kousa_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:stripped_kousa_log"
+          },
+          "P": {
+            "item": "atmospheric:kousa_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_kousa_coffee_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_kousa_coffee_table",
-    "count": 4
-  }
+  ]
 }

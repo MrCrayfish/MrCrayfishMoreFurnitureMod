@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "coffee_table",
-  "pattern": [
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_jacaranda_log"
-    },
-    "P": {
-      "item": "biomesoplenty:jacaranda_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_jacaranda_log"
+          },
+          "P": {
+            "item": "biomesoplenty:jacaranda_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_jacaranda_coffee_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_jacaranda_coffee_table",
-    "count": 4
-  }
+  ]
 }

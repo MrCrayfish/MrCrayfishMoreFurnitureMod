@@ -1,24 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "kitchen_drawer",
-  "pattern": [
-    "LLL",
-    "PCP",
-    "PPP"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:yucca_log"
-    },
-    "P": {
-      "item": "atmospheric:stripped_yucca_log"
-    },
-    "C": {
-      "tag": "forge:chests/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_drawer",
+        "pattern": [
+          "LLL",
+          "PCP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:yucca_log"
+          },
+          "P": {
+            "item": "atmospheric:stripped_yucca_log"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_yucca_kitchen_drawer",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_yucca_kitchen_drawer",
-    "count": 4
-  }
+  ]
 }

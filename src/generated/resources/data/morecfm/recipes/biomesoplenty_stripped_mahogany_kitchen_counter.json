@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "kitchen_counter",
-  "pattern": [
-    "LLL",
-    "PPP",
-    "PPP"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:mahogany_log"
-    },
-    "P": {
-      "item": "biomesoplenty:stripped_mahogany_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:mahogany_log"
+          },
+          "P": {
+            "item": "biomesoplenty:stripped_mahogany_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_mahogany_kitchen_counter",
+          "count": 8
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_mahogany_kitchen_counter",
-    "count": 8
-  }
+  ]
 }

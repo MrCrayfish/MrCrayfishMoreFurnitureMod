@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "chair",
-  "pattern": [
-    "L  ",
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:redwood_log"
-    },
-    "P": {
-      "item": "biomesoplenty:redwood_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "chair",
+        "pattern": [
+          "L  ",
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:redwood_log"
+          },
+          "P": {
+            "item": "biomesoplenty:redwood_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_redwood_chair",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_redwood_chair",
-    "count": 4
-  }
+  ]
 }

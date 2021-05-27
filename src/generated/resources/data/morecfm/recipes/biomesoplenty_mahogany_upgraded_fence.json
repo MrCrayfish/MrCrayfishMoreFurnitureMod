@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "upgraded_fence",
-  "pattern": [
-    "LSL",
-    "LSL"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:mahogany_log"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_fence",
+        "pattern": [
+          "LSL",
+          "LSL"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:mahogany_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_mahogany_upgraded_fence",
+          "count": 12
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_mahogany_upgraded_fence",
-    "count": 12
-  }
+  ]
 }

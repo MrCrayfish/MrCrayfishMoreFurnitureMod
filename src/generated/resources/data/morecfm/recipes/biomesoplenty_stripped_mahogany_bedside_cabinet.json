@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "bedside_cabinet",
-  "pattern": [
-    "LLL",
-    "P P",
-    "PPP"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_mahogany_log"
-    },
-    "P": {
-      "item": "biomesoplenty:mahogany_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "bedside_cabinet",
+        "pattern": [
+          "LLL",
+          "P P",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_mahogany_log"
+          },
+          "P": {
+            "item": "biomesoplenty:mahogany_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_mahogany_bedside_cabinet",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_mahogany_bedside_cabinet",
-    "count": 2
-  }
+  ]
 }

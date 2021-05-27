@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "desk",
-  "pattern": [
-    "LLL",
-    "P P",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:stripped_rosewood_log"
-    },
-    "P": {
-      "item": "atmospheric:rosewood_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:stripped_rosewood_log"
+          },
+          "P": {
+            "item": "atmospheric:rosewood_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_rosewood_desk",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_rosewood_desk",
-    "count": 2
-  }
+  ]
 }

@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "coffee_table",
-  "pattern": [
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "environmental:stripped_cherry_log"
-    },
-    "P": {
-      "item": "environmental:cherry_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "environmental",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "environmental:stripped_cherry_log"
+          },
+          "P": {
+            "item": "environmental:cherry_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:environmental_stripped_cherry_coffee_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:environmental_stripped_cherry_coffee_table",
-    "count": 4
-  }
+  ]
 }

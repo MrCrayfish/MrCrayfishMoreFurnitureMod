@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "desk",
-  "pattern": [
-    "LLL",
-    "P P",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_umbran_log"
-    },
-    "P": {
-      "item": "biomesoplenty:umbran_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_umbran_log"
+          },
+          "P": {
+            "item": "biomesoplenty:umbran_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_umbran_desk",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_umbran_desk",
-    "count": 2
-  }
+  ]
 }

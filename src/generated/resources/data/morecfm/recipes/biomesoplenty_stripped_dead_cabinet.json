@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "cabinet",
-  "pattern": [
-    "PPL",
-    "P L",
-    "PPL"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:dead_log"
-    },
-    "P": {
-      "item": "biomesoplenty:stripped_dead_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "cabinet",
+        "pattern": [
+          "PPL",
+          "P L",
+          "PPL"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:dead_log"
+          },
+          "P": {
+            "item": "biomesoplenty:stripped_dead_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_dead_cabinet",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_dead_cabinet",
-    "count": 2
-  }
+  ]
 }

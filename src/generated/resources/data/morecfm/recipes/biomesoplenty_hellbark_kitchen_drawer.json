@@ -1,24 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "kitchen_drawer",
-  "pattern": [
-    "LLL",
-    "PCP",
-    "PPP"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:hellbark_log"
-    },
-    "P": {
-      "item": "biomesoplenty:hellbark_planks"
-    },
-    "C": {
-      "tag": "forge:chests/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_drawer",
+        "pattern": [
+          "LLL",
+          "PCP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:hellbark_log"
+          },
+          "P": {
+            "item": "biomesoplenty:hellbark_planks"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_hellbark_kitchen_drawer",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_hellbark_kitchen_drawer",
-    "count": 4
-  }
+  ]
 }

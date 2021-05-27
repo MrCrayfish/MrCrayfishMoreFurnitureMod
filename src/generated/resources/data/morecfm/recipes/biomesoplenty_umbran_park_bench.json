@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "park_bench",
-  "pattern": [
-    "PPP",
-    "PPP",
-    "L L"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:umbran_log"
-    },
-    "P": {
-      "item": "biomesoplenty:umbran_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "park_bench",
+        "pattern": [
+          "PPP",
+          "PPP",
+          "L L"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:umbran_log"
+          },
+          "P": {
+            "item": "biomesoplenty:umbran_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_umbran_park_bench",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_umbran_park_bench",
-    "count": 4
-  }
+  ]
 }

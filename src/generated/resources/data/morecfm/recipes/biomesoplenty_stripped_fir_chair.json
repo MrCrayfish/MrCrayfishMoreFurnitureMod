@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "chair",
-  "pattern": [
-    "L  ",
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_fir_log"
-    },
-    "P": {
-      "item": "biomesoplenty:fir_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "chair",
+        "pattern": [
+          "L  ",
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_fir_log"
+          },
+          "P": {
+            "item": "biomesoplenty:fir_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_fir_chair",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_fir_chair",
-    "count": 4
-  }
+  ]
 }

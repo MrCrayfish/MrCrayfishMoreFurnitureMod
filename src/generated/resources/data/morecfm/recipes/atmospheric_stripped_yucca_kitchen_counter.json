@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "kitchen_counter",
-  "pattern": [
-    "LLL",
-    "PPP",
-    "PPP"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:yucca_log"
-    },
-    "P": {
-      "item": "atmospheric:stripped_yucca_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:yucca_log"
+          },
+          "P": {
+            "item": "atmospheric:stripped_yucca_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_yucca_kitchen_counter",
+          "count": 8
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_yucca_kitchen_counter",
-    "count": 8
-  }
+  ]
 }

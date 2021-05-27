@@ -1,19 +1,32 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "upgraded_gate",
-  "pattern": [
-    "LGL"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:stripped_kousa_log"
-    },
-    "G": {
-      "tag": "forge:fence_gates/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_gate",
+        "pattern": [
+          "LGL"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:stripped_kousa_log"
+          },
+          "G": {
+            "tag": "forge:fence_gates/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_kousa_upgraded_gate",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_kousa_upgraded_gate",
-    "count": 2
-  }
+  ]
 }

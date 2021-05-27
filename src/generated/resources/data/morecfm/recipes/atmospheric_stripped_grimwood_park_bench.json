@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "park_bench",
-  "pattern": [
-    "PPP",
-    "PPP",
-    "L L"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:grimwood_log"
-    },
-    "P": {
-      "item": "atmospheric:stripped_grimwood_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "park_bench",
+        "pattern": [
+          "PPP",
+          "PPP",
+          "L L"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:grimwood_log"
+          },
+          "P": {
+            "item": "atmospheric:stripped_grimwood_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_grimwood_park_bench",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_grimwood_park_bench",
-    "count": 4
-  }
+  ]
 }

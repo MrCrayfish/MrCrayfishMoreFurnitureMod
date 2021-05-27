@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "blinds",
-  "pattern": [
-    "LLL",
-    "SSS",
-    "SSS"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_willow_log"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "blinds",
+        "pattern": [
+          "LLL",
+          "SSS",
+          "SSS"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_willow_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_willow_blinds",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_willow_blinds",
-    "count": 2
-  }
+  ]
 }

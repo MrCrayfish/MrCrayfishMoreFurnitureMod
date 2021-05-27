@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "upgraded_fence",
-  "pattern": [
-    "LSL",
-    "LSL"
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:yucca_log"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_fence",
+        "pattern": [
+          "LSL",
+          "LSL"
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:yucca_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_yucca_upgraded_fence",
+          "count": 12
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_yucca_upgraded_fence",
-    "count": 12
-  }
+  ]
 }

@@ -1,5 +1,6 @@
 package com.mrcrayfish.morefurniture;
 
+import com.mrcrayfish.furniture.FurnitureGroup;
 import com.mrcrayfish.morefurniture.client.ClientHandler;
 import com.mrcrayfish.morefurniture.common.CommonHandler;
 import com.mrcrayfish.morefurniture.datagen.BlockTagGen;
@@ -10,6 +11,8 @@ import com.mrcrayfish.morefurniture.init.ModBlocks;
 import com.mrcrayfish.morefurniture.init.ModCommands;
 import com.mrcrayfish.morefurniture.init.ModItems;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +29,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(Reference.MOD_ID)
 public class MoreFurnitureMod
 {
+    public static final ItemGroup GROUP = new ItemGroup(Reference.MOD_ID)
+    {
+        @Override
+        public ItemStack createIcon()
+        {
+            return new ItemStack(ModBlocks.ATMOSPHERIC_CHAIR_ASPEN.get());
+        }
+    };
+
     public MoreFurnitureMod()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();

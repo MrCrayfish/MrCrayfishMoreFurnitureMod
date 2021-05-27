@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "crate",
-  "pattern": [
-    "LPL",
-    "P P",
-    "LPL"
-  ],
-  "key": {
-    "L": {
-      "item": "autumnity:maple_log"
-    },
-    "P": {
-      "item": "autumnity:maple_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "autumnity",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crate",
+        "pattern": [
+          "LPL",
+          "P P",
+          "LPL"
+        ],
+        "key": {
+          "L": {
+            "item": "autumnity:maple_log"
+          },
+          "P": {
+            "item": "autumnity:maple_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:autumnity_maple_crate",
+          "count": 2
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:autumnity_maple_crate",
-    "count": 2
-  }
+  ]
 }

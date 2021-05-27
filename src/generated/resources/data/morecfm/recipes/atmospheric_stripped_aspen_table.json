@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "table",
-  "pattern": [
-    "LLL",
-    " P ",
-    " P "
-  ],
-  "key": {
-    "L": {
-      "item": "atmospheric:stripped_aspen_log"
-    },
-    "P": {
-      "item": "atmospheric:aspen_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "atmospheric",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "table",
+        "pattern": [
+          "LLL",
+          " P ",
+          " P "
+        ],
+        "key": {
+          "L": {
+            "item": "atmospheric:stripped_aspen_log"
+          },
+          "P": {
+            "item": "atmospheric:aspen_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:atmospheric_stripped_aspen_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:atmospheric_stripped_aspen_table",
-    "count": 4
-  }
+  ]
 }

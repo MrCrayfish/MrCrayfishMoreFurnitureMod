@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "table",
-  "pattern": [
-    "LLL",
-    " P ",
-    " P "
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:stripped_cherry_log"
-    },
-    "P": {
-      "item": "biomesoplenty:cherry_log"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "table",
+        "pattern": [
+          "LLL",
+          " P ",
+          " P "
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:stripped_cherry_log"
+          },
+          "P": {
+            "item": "biomesoplenty:cherry_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_stripped_cherry_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_stripped_cherry_table",
-    "count": 4
-  }
+  ]
 }

@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "coffee_table",
-  "pattern": [
-    "LLL",
-    "P P"
-  ],
-  "key": {
-    "L": {
-      "item": "biomesoplenty:cherry_log"
-    },
-    "P": {
-      "item": "biomesoplenty:cherry_planks"
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "biomesoplenty",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "biomesoplenty:cherry_log"
+          },
+          "P": {
+            "item": "biomesoplenty:cherry_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:biomesoplenty_cherry_coffee_table",
+          "count": 4
+        }
+      }
     }
-  },
-  "result": {
-    "item": "morecfm:biomesoplenty_cherry_coffee_table",
-    "count": 4
-  }
+  ]
 }
