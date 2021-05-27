@@ -36,7 +36,7 @@ public class MoreFurnitureMod
         @Override
         public ItemStack createIcon()
         {
-            Block block = ObjectUtils.firstNonNull(ModBlocks.ENVIRONMENTAL_CHAIR_STRIPPED_WILLOW, ModBlocks.ATMOSPHERIC_CHAIR_STRIPPED_ASPEN, ModBlocks.BIOMESOPLENTY_CHAIR_STRIPPED_CHERRY, com.mrcrayfish.furniture.core.ModBlocks.CHAIR_CRIMSON).get();
+            Block block = ObjectUtils.firstNonNull(ModBlocks.ATMOSPHERIC_CHAIR_ASPEN, ModBlocks.ENVIRONMENTAL_CHAIR_STRIPPED_WILLOW, ModBlocks.BIOMESOPLENTY_CHAIR_STRIPPED_CHERRY, com.mrcrayfish.furniture.core.ModBlocks.CHAIR_CRIMSON).get();
             return new ItemStack(block);
         }
     };
