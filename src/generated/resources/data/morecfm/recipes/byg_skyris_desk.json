@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:skyris_log"
+          },
+          "P": {
+            "item": "byg:skyris_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_skyris_desk",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

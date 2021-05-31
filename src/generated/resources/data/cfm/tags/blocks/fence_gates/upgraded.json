@@ -168,6 +168,206 @@
     {
       "id": "morecfm:biomesoplenty_stripped_hellbark_upgraded_gate",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_upgraded_gate",
+      "required": false
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crate",
+        "pattern": [
+          "LPL",
+          "P P",
+          "LPL"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:stripped_witch_hazel_log"
+          },
+          "P": {
+            "item": "byg:witch_hazel_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_stripped_witch_hazel_crate",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "blinds",
+        "pattern": [
+          "LLL",
+          "SSS",
+          "SSS"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:ebony_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_ebony_blinds",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

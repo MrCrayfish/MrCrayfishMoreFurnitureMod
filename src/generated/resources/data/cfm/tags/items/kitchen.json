@@ -672,6 +672,806 @@
     {
       "id": "morecfm:biomesoplenty_stripped_hellbark_kitchen_sink_dark",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_kitchen_sink_dark",
+      "required": false
     }
   ]
 }

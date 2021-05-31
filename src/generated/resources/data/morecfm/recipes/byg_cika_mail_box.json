@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "mail_box",
+        "pattern": [
+          "C",
+          "F",
+          "F"
+        ],
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "F": {
+            "item": "morecfm:byg_cika_upgraded_fence"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_cika_mail_box"
+        }
+      }
+    }
+  ]
+}

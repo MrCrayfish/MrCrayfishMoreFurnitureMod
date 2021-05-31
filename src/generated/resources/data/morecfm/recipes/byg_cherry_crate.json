@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crate",
+        "pattern": [
+          "LPL",
+          "P P",
+          "LPL"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:cherry_log"
+          },
+          "P": {
+            "item": "byg:cherry_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_cherry_crate",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

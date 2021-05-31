@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:mahogany_log"
+          },
+          "P": {
+            "item": "byg:mahogany_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_mahogany_kitchen_counter",
+          "count": 8
+        }
+      }
+    }
+  ]
+}

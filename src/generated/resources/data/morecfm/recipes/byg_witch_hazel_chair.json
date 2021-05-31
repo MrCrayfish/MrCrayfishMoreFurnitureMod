@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "chair",
+        "pattern": [
+          "L  ",
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:witch_hazel_log"
+          },
+          "P": {
+            "item": "byg:witch_hazel_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_witch_hazel_chair",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

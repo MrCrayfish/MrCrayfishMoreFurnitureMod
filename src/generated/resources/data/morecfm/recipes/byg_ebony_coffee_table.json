@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:ebony_log"
+          },
+          "P": {
+            "item": "byg:ebony_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_ebony_coffee_table",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

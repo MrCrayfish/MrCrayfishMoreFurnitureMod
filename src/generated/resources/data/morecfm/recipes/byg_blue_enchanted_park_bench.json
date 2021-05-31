@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "park_bench",
+        "pattern": [
+          "PPP",
+          "PPP",
+          "L L"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:blue_enchanted_log"
+          },
+          "P": {
+            "item": "byg:blue_enchanted_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_blue_enchanted_park_bench",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

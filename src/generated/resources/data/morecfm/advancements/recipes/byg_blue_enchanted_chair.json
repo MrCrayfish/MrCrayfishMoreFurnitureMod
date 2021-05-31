@@ -1,0 +1,55 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:byg_blue_enchanted_chair"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "byg:blue_enchanted_log"
+                }
+              ]
+            }
+          },
+          "has_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "byg:blue_enchanted_planks"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:byg_blue_enchanted_chair"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_planks",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_fence",
+        "pattern": [
+          "LSL",
+          "LSL"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:holly_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_holly_upgraded_fence",
+          "count": 12
+        }
+      }
+    }
+  ]
+}

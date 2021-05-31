@@ -672,6 +672,806 @@
     {
       "id": "morecfm:biomesoplenty_stripped_hellbark_blinds",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_blinds",
+      "required": false
     }
   ]
 }

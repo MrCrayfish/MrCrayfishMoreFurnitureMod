@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:mangrove_log"
+          },
+          "P": {
+            "item": "byg:stripped_mangrove_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_stripped_mangrove_kitchen_counter",
+          "count": 8
+        }
+      }
+    }
+  ]
+}

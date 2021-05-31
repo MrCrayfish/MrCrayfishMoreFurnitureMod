@@ -22,7 +22,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(ForgeHooks.class)
 public class ForgeHooksMixin
 {
-    @Inject(method = "loadLootTable", at = @At(value = "HEAD"), cancellable = true)
+    @Inject(method = "loadLootTable", at = @At(value = "HEAD"), cancellable = true, remap = false)
     private static void loadLootTableHead(Gson gson, ResourceLocation name, JsonElement data, boolean custom, LootTableManager lootTableManager, CallbackInfoReturnable<LootTable> cir)
     {
         if(name.getNamespace().equals(Reference.MOD_ID) && name.getPath().startsWith("blocks/"))

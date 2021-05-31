@@ -504,6 +504,606 @@
     {
       "id": "morecfm:biomesoplenty_stripped_hellbark_mail_box",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_aspen_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_baobab_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_baobab_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_blue_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_blue_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cherry_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cika_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cika_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ebony_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ebony_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_fir_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_green_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_green_enchanted_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_holly_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_holly_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mahogany_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_mangrove_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_mangrove_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_maple_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_pine_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_pine_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_rainbow_eucalyptus_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_rainbow_eucalyptus_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_redwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_skyris_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_skyris_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_willow_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_witch_hazel_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_witch_hazel_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_zelkova_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_zelkova_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_palm_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_lament_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_lament_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_nightshade_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_nightshade_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_ether_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_ether_mail_box",
+      "required": false
     }
   ]
 }

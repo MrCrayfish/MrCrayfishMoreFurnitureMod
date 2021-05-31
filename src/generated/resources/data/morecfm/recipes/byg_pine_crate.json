@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crate",
+        "pattern": [
+          "LPL",
+          "P P",
+          "LPL"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:pine_log"
+          },
+          "P": {
+            "item": "byg:pine_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_pine_crate",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

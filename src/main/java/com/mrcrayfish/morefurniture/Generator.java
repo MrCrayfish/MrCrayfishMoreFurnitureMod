@@ -4,6 +4,7 @@ import biomesoplenty.api.block.BOPBlocks;
 import com.minecraftabnormals.atmospheric.core.registry.AtmosphericBlocks;
 import com.minecraftabnormals.autumnity.core.registry.AutumnityBlocks;
 import com.minecraftabnormals.environmental.core.registry.EnvironmentalBlocks;
+import corgiaoc.byg.core.BYGBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.client.resources.I18n;
 import org.apache.commons.io.FileUtils;
@@ -82,6 +83,33 @@ public class Generator
         this.registerVariant("magic", BOPBlocks.magic_log, BOPBlocks.magic_planks, BOPBlocks.stripped_magic_log);
         this.registerVariant("umbran", BOPBlocks.umbran_log, BOPBlocks.umbran_planks, BOPBlocks.stripped_umbran_log);
         this.registerVariant("hellbark", BOPBlocks.hellbark_log, BOPBlocks.hellbark_planks, BOPBlocks.stripped_hellbark_log);
+        
+        //Oh The Biomes You'll Go
+        this.registerVariant("aspen", BYGBlocks.ASPEN_LOG, BYGBlocks.ASPEN_PLANKS, BYGBlocks.STRIPPED_ASPEN_LOG);
+        this.registerVariant("baobab", BYGBlocks.BAOBAB_LOG, BYGBlocks.BAOBAB_PLANKS, BYGBlocks.STRIPPED_BAOBAB_LOG);
+        this.registerVariant("blue_enchanted", BYGBlocks.BLUE_ENCHANTED_LOG, BYGBlocks.BLUE_ENCHANTED_PLANKS, BYGBlocks.STRIPPED_BLUE_ENCHANTED_LOG);
+        this.registerVariant("cherry", BYGBlocks.CHERRY_LOG, BYGBlocks.CHERRY_PLANKS, BYGBlocks.STRIPPED_CHERRY_LOG);
+        this.registerVariant("cika", BYGBlocks.CIKA_LOG, BYGBlocks.CIKA_PLANKS, BYGBlocks.STRIPPED_CIKA_LOG);
+        this.registerVariant("cypress", BYGBlocks.CYPRESS_LOG, BYGBlocks.CYPRESS_PLANKS, BYGBlocks.STRIPPED_CYPRESS_LOG);
+        this.registerVariant("ebony", BYGBlocks.EBONY_LOG, BYGBlocks.EBONY_PLANKS, BYGBlocks.STRIPPED_EBONY_LOG);
+        this.registerVariant("fir", BYGBlocks.FIR_LOG, BYGBlocks.FIR_PLANKS, BYGBlocks.STRIPPED_FIR_LOG);
+        this.registerVariant("green_enchanted", BYGBlocks.GREEN_ENCHANTED_LOG, BYGBlocks.GREEN_ENCHANTED_PLANKS, BYGBlocks.STRIPPED_GREEN_ENCHANTED_LOG);
+        this.registerVariant("holly", BYGBlocks.HOLLY_LOG, BYGBlocks.HOLLY_PLANKS, BYGBlocks.STRIPPED_HOLLY_LOG);
+        this.registerVariant("jacaranda", BYGBlocks.JACARANDA_LOG, BYGBlocks.JACARANDA_PLANKS, BYGBlocks.STRIPPED_JACARANDA_LOG);
+        this.registerVariant("mahogany", BYGBlocks.MAHOGANY_LOG, BYGBlocks.MAHOGANY_PLANKS, BYGBlocks.STRIPPED_MAHOGANY_LOG);
+        this.registerVariant("mangrove", BYGBlocks.MANGROVE_LOG, BYGBlocks.MANGROVE_PLANKS, BYGBlocks.STRIPPED_MANGROVE_LOG);
+        this.registerVariant("maple", BYGBlocks.MAPLE_LOG, BYGBlocks.MAPLE_PLANKS, BYGBlocks.STRIPPED_MAPLE_LOG);
+        this.registerVariant("pine", BYGBlocks.PINE_LOG, BYGBlocks.PINE_PLANKS, BYGBlocks.STRIPPED_PINE_LOG);
+        this.registerVariant("rainbow_eucalyptus", BYGBlocks.RAINBOW_EUCALYPTUS_LOG, BYGBlocks.RAINBOW_EUCALYPTUS_PLANKS, BYGBlocks.STRIPPED_RAINBOW_EUCALYPTUS_LOG);
+        this.registerVariant("redwood", BYGBlocks.REDWOOD_LOG, BYGBlocks.REDWOOD_PLANKS, BYGBlocks.STRIPPED_REDWOOD_LOG);
+        this.registerVariant("skyris", BYGBlocks.SKYRIS_LOG, BYGBlocks.SKYRIS_PLANKS, BYGBlocks.STRIPPED_SKYRIS_LOG);
+        this.registerVariant("willow", BYGBlocks.WILLOW_LOG, BYGBlocks.WILLOW_PLANKS, BYGBlocks.STRIPPED_WILLOW_LOG);
+        this.registerVariant("witch_hazel", BYGBlocks.WITCH_HAZEL_LOG, BYGBlocks.WITCH_HAZEL_PLANKS, BYGBlocks.STRIPPED_WITCH_HAZEL_LOG);
+        this.registerVariant("zelkova", BYGBlocks.ZELKOVA_LOG, BYGBlocks.ZELKOVA_PLANKS, BYGBlocks.STRIPPED_ZELKOVA_LOG);
+        this.registerVariant("palm", BYGBlocks.PALM_LOG, BYGBlocks.PALM_PLANKS, BYGBlocks.STRIPPED_PALM_LOG);
+        this.registerVariant("lament", BYGBlocks.LAMENT_LOG, BYGBlocks.LAMENT_PLANKS, BYGBlocks.STRIPPED_LAMENT_LOG);
+        this.registerVariant("nightshade", BYGBlocks.NIGHTSHADE_LOG, BYGBlocks.NIGHTSHADE_PLANKS, BYGBlocks.STRIPPED_NIGHTSHADE_LOG);
+        this.registerVariant("ether", BYGBlocks.ETHER_LOG, BYGBlocks.ETHER_PLANKS, BYGBlocks.STRIPPED_ETHER_LOG);
     }
 
     public void registerVariant(String id, Block log, Block planks, @Nullable Block strippedLog)
@@ -96,6 +124,8 @@ public class Generator
 
     public void generate()
     {
+        System.out.println("");
+
         /* ||||||||||||||| Generate ModBlocks code ||||||||||||||| */
         try(BufferedWriter writer = IOUtils.buffer(new FileWriter("ModBlocks.txt")))
         {
@@ -195,36 +225,6 @@ public class Generator
                 }
             }
             writer.write("}");
-        }
-        catch(IOException e)
-        {
-            e.printStackTrace();
-        }
-
-        /* ||||||||||||||| Generate recipe gen code ||||||||||||||| */
-        try(BufferedWriter writer = IOUtils.buffer(new FileWriter("RecipeGen.txt")))
-        {
-            for(FurnitureType type : FURNITURE_TYPES)
-            {
-                for(Variant variant : this.registeredVariants)
-                {
-                    String blockArgs = String.join(",", type.args);
-                    String blockRegistryObject = String.format("public static final RegistryObject<Block> %1$s_%2$s_%3$s = register(\"%4$s_%5$s_%6$s\", new %7$s(%8$s));", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase(), variant.log.getRegistryName().getNamespace(), variant.id, type.id, type.className, blockArgs);
-                    writer.write(blockRegistryObject);
-                    writer.write("\n");
-                }
-
-                for(Variant variant : this.registeredVariants)
-                {
-                    if(variant.strippedLog != null)
-                    {
-                        String blockArgs = String.join(",", type.args);
-                        String blockRegistryObject = String.format("public static final RegistryObject<Block> %1$s_%2$s_STRIPPED_%3$s = register(\"%4$s_stripped_%5$s_%6$s\", new %7$s(%8$s));", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase(), variant.log.getRegistryName().getNamespace(), variant.id, type.id, type.className, blockArgs);
-                        writer.write(blockRegistryObject);
-                        writer.write("\n");
-                    }
-                }
-            }
         }
         catch(IOException e)
         {

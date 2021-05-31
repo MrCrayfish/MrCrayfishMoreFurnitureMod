@@ -1,0 +1,44 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:byg_palm_blinds"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "byg:palm_log"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:byg_palm_blinds"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}
