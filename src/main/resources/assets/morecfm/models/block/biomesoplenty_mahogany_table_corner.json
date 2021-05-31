@@ -2,6 +2,6 @@
     "parent": "cfm:block/table_corner",
     "textures": {
         "top": "biomesoplenty:block/mahogany_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "biomesoplenty:block/stripped_mahogany_log"
     }
 }

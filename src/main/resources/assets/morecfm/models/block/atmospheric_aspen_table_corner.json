@@ -2,6 +2,6 @@
     "parent": "cfm:block/table_corner",
     "textures": {
         "top": "atmospheric:block/aspen_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "atmospheric:block/stripped_aspen_log"
     }
 }

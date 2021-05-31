@@ -2,6 +2,6 @@
     "parent": "cfm:block/table_center",
     "textures": {
         "top": "byg:block/rainbow_eucalyptus_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "byg:block/stripped_rainbow_eucalyptus_log"
     }
 }

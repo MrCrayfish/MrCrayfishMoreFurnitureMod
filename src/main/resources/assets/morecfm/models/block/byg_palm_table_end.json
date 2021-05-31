@@ -2,6 +2,6 @@
     "parent": "cfm:block/table_end",
     "textures": {
         "top": "byg:block/palm_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "byg:block/stripped_palm_log"
     }
 }
