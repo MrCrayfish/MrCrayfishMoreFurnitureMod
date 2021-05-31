@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/aspen_planks",
+        "top": "byg:block/aspen_log"
+    }
+}

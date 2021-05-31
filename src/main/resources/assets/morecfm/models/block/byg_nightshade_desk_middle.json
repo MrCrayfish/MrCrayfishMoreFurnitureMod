@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/nightshade_planks",
+        "top": "byg:block/nightshade_log"
+    }
+}

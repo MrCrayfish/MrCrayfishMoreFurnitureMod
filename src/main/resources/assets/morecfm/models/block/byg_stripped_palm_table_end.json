@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_end",
+    "textures": {
+        "top": "byg:block/stripped_palm_log",
+        "legs": "byg:block/palm_log"
+    }
+}

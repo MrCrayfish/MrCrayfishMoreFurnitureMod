@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_corner",
+    "textures": {
+        "top": "byg:block/rainbow_eucalyptus_log",
+        "legs": "block/stripped_oak_log"
+    }
+}

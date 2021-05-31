@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_double_left_closed",
+    "textures": {
+        "hinge": "byg:block/redwood_log",
+        "pole": "byg:block/redwood_planks",
+        "plank": "byg:block/stripped_redwood_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/redwood_log",
+        "base": "byg:block/redwood_planks"
+    }
+}

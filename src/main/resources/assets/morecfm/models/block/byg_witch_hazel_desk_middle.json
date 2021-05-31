@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/witch_hazel_planks",
+        "top": "byg:block/witch_hazel_log"
+    }
+}

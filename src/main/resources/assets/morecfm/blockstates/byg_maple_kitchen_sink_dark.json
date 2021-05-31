@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "morecfm:block/byg_maple_kitchen_sink_dark",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "morecfm:block/byg_maple_kitchen_sink_dark",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "morecfm:block/byg_maple_kitchen_sink_dark",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "morecfm:block/byg_maple_kitchen_sink_dark",
+            "y": 270
+        }
+    }
+}

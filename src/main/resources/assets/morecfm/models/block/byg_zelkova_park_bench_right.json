@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_right",
+    "textures": {
+        "legs": "byg:block/zelkova_log",
+        "plank": "byg:block/zelkova_planks"
+    }
+}

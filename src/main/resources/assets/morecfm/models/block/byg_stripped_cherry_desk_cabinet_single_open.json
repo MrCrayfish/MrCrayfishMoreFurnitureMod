@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "byg:block/stripped_cherry_log",
+        "base": "byg:block/stripped_cherry_log",
+        "draw": "byg:block/stripped_cherry_log",
+        "draw_front": "byg:block/cherry_log",
+        "legs": "byg:block/cherry_log"
+    }
+}

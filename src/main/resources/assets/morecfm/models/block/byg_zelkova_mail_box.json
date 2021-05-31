@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/zelkova_log",
+        "box": "byg:block/zelkova_planks"
+    }
+}

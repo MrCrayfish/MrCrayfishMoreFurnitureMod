@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/baobab_planks",
+        "top": "byg:block/baobab_log"
+    }
+}

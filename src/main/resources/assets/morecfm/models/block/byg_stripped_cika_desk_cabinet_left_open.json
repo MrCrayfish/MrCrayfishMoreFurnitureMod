@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_left_open",
+    "textures": {
+        "top": "byg:block/stripped_cika_log",
+        "base": "byg:block/stripped_cika_log",
+        "draw": "byg:block/stripped_cika_log",
+        "draw_front": "byg:block/cika_log",
+        "legs": "byg:block/cika_log"
+    }
+}

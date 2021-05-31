@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "morecfm:block/byg_ether_mail_box",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "morecfm:block/byg_ether_mail_box",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "morecfm:block/byg_ether_mail_box",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "morecfm:block/byg_ether_mail_box",
+            "y": 270
+        }
+    }
+}

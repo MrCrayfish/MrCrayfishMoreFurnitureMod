@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/skyris_planks",
+        "top": "byg:block/skyris_log"
+    }
+}

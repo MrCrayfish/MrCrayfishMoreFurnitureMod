@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/lament_planks",
+        "top": "byg:block/lament_log"
+    }
+}

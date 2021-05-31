@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/mahogany_planks",
+        "top": "byg:block/mahogany_log"
+    }
+}

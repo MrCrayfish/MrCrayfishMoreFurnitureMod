@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/ether_log",
+        "box": "byg:block/ether_planks"
+    }
+}

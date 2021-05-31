@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/ether_planks",
+        "top": "byg:block/ether_log"
+    }
+}

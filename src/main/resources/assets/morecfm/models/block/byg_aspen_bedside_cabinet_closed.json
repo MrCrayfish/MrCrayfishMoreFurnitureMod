@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/aspen_planks",
+        "top": "byg:block/aspen_log",
+        "draw_front": "byg:block/aspen_log"
+    }
+}

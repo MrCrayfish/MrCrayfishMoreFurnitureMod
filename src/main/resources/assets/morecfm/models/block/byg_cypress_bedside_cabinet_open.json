@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "byg:block/cypress_planks",
+        "top": "byg:block/cypress_log",
+        "draw": "byg:block/stripped_cypress_log",
+        "draw_front": "byg:block/cypress_log"
+    }
+}

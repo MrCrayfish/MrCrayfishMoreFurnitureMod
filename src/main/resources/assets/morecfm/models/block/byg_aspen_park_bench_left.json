@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "byg:block/aspen_log",
+        "plank": "byg:block/aspen_planks"
+    }
+}

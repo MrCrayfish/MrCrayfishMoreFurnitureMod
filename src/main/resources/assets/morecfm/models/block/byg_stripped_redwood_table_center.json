@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "byg:block/stripped_redwood_log",
+        "legs": "byg:block/redwood_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "byg:block/jacaranda_planks",
+        "cord": "byg:block/jacaranda_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner",
+    "textures": {
+        "top": "byg:block/rainbow_eucalyptus_log",
+        "base": "byg:block/rainbow_eucalyptus_planks"
+    }
+}

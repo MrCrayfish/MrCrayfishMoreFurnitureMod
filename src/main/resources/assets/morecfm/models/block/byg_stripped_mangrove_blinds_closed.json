@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_closed",
+    "textures": {
+        "head_rail": "byg:block/stripped_mangrove_log",
+        "slat": "byg:block/mangrove_planks",
+        "cord": "byg:block/mangrove_log"
+    }
+}

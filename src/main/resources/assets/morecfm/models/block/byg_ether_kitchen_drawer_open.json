@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "byg:block/ether_log",
+        "base": "byg:block/ether_planks"
+    }
+}

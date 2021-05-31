@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/crate_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "panel": "byg:block/lament_planks",
+        "frame": "byg:block/lament_log"
+    }
+}

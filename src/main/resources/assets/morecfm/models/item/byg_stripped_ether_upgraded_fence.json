@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "byg:block/stripped_ether_log",
+        "middle": "byg:block/ether_log",
+        "post": "byg:block/stripped_ether_log"
+    }
+}

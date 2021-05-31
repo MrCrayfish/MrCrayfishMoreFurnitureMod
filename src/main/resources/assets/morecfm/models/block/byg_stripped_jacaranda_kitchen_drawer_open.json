@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "byg:block/stripped_jacaranda_log",
+        "base": "byg:block/stripped_jacaranda_log"
+    }
+}

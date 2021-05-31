@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/witch_hazel_log",
+        "base": "byg:block/stripped_witch_hazel_log"
+    }
+}
