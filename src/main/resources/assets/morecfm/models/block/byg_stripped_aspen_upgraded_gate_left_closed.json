@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_left_closed",
+    "textures": {
+        "hinge": "byg:block/aspen_log",
+        "pole": "byg:block/aspen_planks",
+        "plank": "byg:block/stripped_aspen_log"
+    }
+}

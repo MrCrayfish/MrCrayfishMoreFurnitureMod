@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "byg:block/cypress_log",
+        "base": "byg:block/cypress_planks"
+    }
+}

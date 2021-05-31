@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/rainbow_eucalyptus_log",
+        "base": "byg:block/rainbow_eucalyptus_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table",
+    "textures": {
+        "top": "byg:block/witch_hazel_log",
+        "legs": "block/stripped_oak_log"
+    }
+}

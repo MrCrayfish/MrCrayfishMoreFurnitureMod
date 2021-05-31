@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/redwood_log",
+        "box": "byg:block/redwood_planks"
+    }
+}

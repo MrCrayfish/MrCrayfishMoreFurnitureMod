@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_double_left_closed",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "byg:block/cherry_log",
+        "plank": "byg:block/cherry_planks"
+    }
+}

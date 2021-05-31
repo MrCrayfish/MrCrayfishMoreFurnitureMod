@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/cika_planks",
+        "top": "byg:block/cika_log",
+        "draw_front": "byg:block/cika_log"
+    }
+}

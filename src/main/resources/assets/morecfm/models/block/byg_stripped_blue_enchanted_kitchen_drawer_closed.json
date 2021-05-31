@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "byg:block/stripped_blue_enchanted_log",
+        "base": "byg:block/stripped_blue_enchanted_log"
+    }
+}

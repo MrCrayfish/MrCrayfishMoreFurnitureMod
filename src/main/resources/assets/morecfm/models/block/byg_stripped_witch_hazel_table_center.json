@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "byg:block/stripped_witch_hazel_log",
+        "legs": "byg:block/witch_hazel_log"
+    }
+}

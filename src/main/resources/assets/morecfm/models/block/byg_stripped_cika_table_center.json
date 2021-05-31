@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "byg:block/stripped_cika_log",
+        "legs": "byg:block/cika_log"
+    }
+}

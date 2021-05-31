@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/holly_log",
+        "base": "byg:block/holly_planks"
+    }
+}

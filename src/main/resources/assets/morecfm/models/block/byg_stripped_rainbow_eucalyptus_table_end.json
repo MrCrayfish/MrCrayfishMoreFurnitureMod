@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_end",
+    "textures": {
+        "top": "byg:block/stripped_rainbow_eucalyptus_log",
+        "legs": "byg:block/rainbow_eucalyptus_log"
+    }
+}

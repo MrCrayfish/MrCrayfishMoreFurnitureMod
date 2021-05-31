@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "byg:block/fir_log",
+        "base": "byg:block/fir_planks"
+    }
+}

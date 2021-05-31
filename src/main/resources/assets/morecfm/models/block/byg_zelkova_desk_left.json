@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_left",
+    "textures": {
+        "base": "byg:block/zelkova_planks",
+        "top": "byg:block/zelkova_log",
+        "legs": "byg:block/zelkova_planks"
+    }
+}

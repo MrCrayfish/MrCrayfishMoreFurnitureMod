@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/blue_enchanted_planks",
+        "top": "byg:block/blue_enchanted_log"
+    }
+}

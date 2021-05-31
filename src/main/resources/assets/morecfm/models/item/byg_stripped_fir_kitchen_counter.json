@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "base": "byg:block/stripped_fir_log",
+        "top": "byg:block/stripped_fir_log"
+    }
+}

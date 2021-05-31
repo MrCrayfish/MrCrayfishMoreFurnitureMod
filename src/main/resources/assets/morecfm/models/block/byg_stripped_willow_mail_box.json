@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/stripped_willow_log",
+        "box": "byg:block/willow_log"
+    }
+}

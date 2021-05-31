@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "byg:block/aspen_planks",
+        "middle": "byg:block/aspen_log"
+    }
+}

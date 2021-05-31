@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "byg:block/zelkova_planks",
+        "cord": "byg:block/zelkova_log"
+    }
+}

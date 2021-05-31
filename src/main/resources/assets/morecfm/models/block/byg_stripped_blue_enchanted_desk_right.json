@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_right",
+    "textures": {
+        "base": "byg:block/stripped_blue_enchanted_log",
+        "top": "byg:block/stripped_blue_enchanted_log",
+        "legs": "byg:block/blue_enchanted_log"
+    }
+}

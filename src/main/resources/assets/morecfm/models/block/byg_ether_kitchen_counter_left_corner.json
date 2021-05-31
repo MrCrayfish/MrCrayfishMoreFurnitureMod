@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner",
+    "textures": {
+        "top": "byg:block/ether_log",
+        "base": "byg:block/ether_planks"
+    }
+}

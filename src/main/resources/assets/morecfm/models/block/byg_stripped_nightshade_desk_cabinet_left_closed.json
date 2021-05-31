@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_left_closed",
+    "textures": {
+        "top": "byg:block/stripped_nightshade_log",
+        "base": "byg:block/stripped_nightshade_log",
+        "draw_front": "byg:block/nightshade_log",
+        "legs": "byg:block/nightshade_log"
+    }
+}

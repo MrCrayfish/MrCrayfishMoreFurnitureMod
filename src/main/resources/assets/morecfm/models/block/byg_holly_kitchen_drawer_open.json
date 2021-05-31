@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "byg:block/holly_log",
+        "base": "byg:block/holly_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_end",
+    "textures": {
+        "top": "byg:block/stripped_ether_log",
+        "legs": "byg:block/ether_log"
+    }
+}

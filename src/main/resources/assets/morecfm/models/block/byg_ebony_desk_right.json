@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_right",
+    "textures": {
+        "base": "byg:block/ebony_planks",
+        "top": "byg:block/ebony_log",
+        "legs": "byg:block/ebony_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_two",
+    "textures": {
+        "top": "byg:block/stripped_lament_log",
+        "legs": "byg:block/lament_log"
+    }
+}

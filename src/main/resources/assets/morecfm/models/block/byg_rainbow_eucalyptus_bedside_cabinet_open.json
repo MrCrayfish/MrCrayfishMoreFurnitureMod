@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "byg:block/rainbow_eucalyptus_planks",
+        "top": "byg:block/rainbow_eucalyptus_log",
+        "draw": "byg:block/stripped_rainbow_eucalyptus_log",
+        "draw_front": "byg:block/rainbow_eucalyptus_log"
+    }
+}

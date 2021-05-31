@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_left_closed",
+    "textures": {
+        "hinge": "byg:block/baobab_log",
+        "pole": "byg:block/baobab_planks",
+        "plank": "byg:block/stripped_baobab_log"
+    }
+}

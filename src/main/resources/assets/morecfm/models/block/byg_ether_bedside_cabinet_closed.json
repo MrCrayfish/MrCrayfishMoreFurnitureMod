@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/ether_planks",
+        "top": "byg:block/ether_log",
+        "draw_front": "byg:block/ether_log"
+    }
+}

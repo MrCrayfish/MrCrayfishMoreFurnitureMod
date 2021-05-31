@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/ether_log",
+        "base": "byg:block/stripped_ether_log"
+    }
+}

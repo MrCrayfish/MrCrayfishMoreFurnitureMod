@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_corner",
+    "textures": {
+        "top": "byg:block/stripped_holly_log",
+        "legs": "byg:block/holly_log"
+    }
+}

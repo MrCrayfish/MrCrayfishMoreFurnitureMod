@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "byg:block/stripped_zelkova_log",
+        "legs": "byg:block/zelkova_log"
+    }
+}

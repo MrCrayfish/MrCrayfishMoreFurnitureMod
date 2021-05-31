@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/crate_closed",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "panel": "byg:block/mangrove_planks",
+        "frame": "byg:block/mangrove_log"
+    }
+}

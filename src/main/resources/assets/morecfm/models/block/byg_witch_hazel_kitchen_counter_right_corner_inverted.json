@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner_inverted",
+    "textures": {
+        "top": "byg:block/witch_hazel_log",
+        "base": "byg:block/witch_hazel_planks"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_open",
+    "textures": {
+        "head_rail": "byg:block/stripped_cherry_log",
+        "slat": "byg:block/cherry_planks",
+        "cord": "byg:block/cherry_log"
+    }
+}

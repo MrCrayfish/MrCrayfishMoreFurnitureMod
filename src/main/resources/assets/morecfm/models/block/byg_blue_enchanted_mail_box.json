@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/blue_enchanted_log",
+        "box": "byg:block/blue_enchanted_planks"
+    }
+}

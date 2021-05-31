@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/mahogany_log",
+        "base": "byg:block/stripped_mahogany_log"
+    }
+}

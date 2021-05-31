@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "byg:block/witch_hazel_log",
+        "legs": "byg:block/stripped_witch_hazel_log"
+    }
+}

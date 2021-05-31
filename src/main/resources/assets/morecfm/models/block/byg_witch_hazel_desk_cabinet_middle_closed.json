@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "byg:block/witch_hazel_log",
+        "base": "byg:block/witch_hazel_planks",
+        "draw_front": "byg:block/witch_hazel_log"
+    }
+}

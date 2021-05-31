@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/stripped_nightshade_log",
+        "top": "byg:block/stripped_nightshade_log",
+        "draw_front": "byg:block/nightshade_log"
+    }
+}

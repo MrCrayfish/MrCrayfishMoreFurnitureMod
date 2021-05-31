@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "byg:block/nightshade_log",
+        "legs": "byg:block/stripped_nightshade_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_none",
+    "textures": {
+        "top": "byg:block/stripped_cypress_log",
+        "legs": "byg:block/cypress_log"
+    }
+}

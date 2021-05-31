@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "byg:block/ebony_log",
+        "base": "byg:block/ebony_planks",
+        "draw_front": "byg:block/ebony_log"
+    }
+}

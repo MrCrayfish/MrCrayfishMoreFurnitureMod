@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "byg:block/ether_log",
+        "base": "byg:block/ether_planks",
+        "draw_front": "byg:block/ether_log"
+    }
+}

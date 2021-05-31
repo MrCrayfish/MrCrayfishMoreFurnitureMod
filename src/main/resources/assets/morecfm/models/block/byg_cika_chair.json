@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "byg:block/cika_log",
+        "legs": "byg:block/stripped_cika_log"
+    }
+}
