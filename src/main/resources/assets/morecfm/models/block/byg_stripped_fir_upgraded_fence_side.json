@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/stripped_upgraded_fence_side",
-    "textures": {
-        "plank": "byg:block/stripped_fir_log",
-        "middle": "byg:block/fir_log"
-    }
-}

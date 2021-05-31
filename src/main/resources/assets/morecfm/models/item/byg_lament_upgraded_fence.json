@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:item/upgraded_fence",
-    "textures": {
-        "plank": "byg:block/lament_planks",
-        "middle": "byg:block/lament_log"
-    }
-}

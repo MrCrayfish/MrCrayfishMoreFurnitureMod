@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/mail_box",
-    "textures": {
-        "roof": "byg:block/maple_log",
-        "box": "byg:block/maple_planks"
-    }
-}

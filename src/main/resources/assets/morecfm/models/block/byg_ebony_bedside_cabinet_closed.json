@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/bedside_cabinet_closed",
-    "textures": {
-        "base": "byg:block/ebony_planks",
-        "top": "byg:block/ebony_log",
-        "draw_front": "byg:block/ebony_log"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/mail_box",
-    "textures": {
-        "roof": "byg:block/stripped_witch_hazel_log",
-        "box": "byg:block/witch_hazel_log"
-    }
-}

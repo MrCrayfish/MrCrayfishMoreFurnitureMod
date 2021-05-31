@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/cabinet_closed",
-    "textures": {
-        "door": "byg:block/jacaranda_log",
-        "base": "byg:block/stripped_jacaranda_log"
-    }
-}

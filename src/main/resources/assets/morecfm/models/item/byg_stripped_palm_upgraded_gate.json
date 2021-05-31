@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:item/stripped_upgraded_gate",
-    "textures": {
-        "hinge": "byg:block/palm_log",
-        "pole": "byg:block/palm_planks",
-        "plank": "byg:block/stripped_palm_log"
-    }
-}

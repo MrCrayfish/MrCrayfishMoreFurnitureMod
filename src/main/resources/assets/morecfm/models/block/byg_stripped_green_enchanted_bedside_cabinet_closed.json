@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/bedside_cabinet_closed",
-    "textures": {
-        "base": "byg:block/stripped_green_enchanted_log",
-        "top": "byg:block/stripped_green_enchanted_log",
-        "draw_front": "byg:block/green_enchanted_log"
-    }
-}

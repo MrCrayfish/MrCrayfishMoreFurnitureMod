@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/bedside_cabinet_closed",
-    "textures": {
-        "base": "byg:block/stripped_zelkova_log",
-        "top": "byg:block/stripped_zelkova_log",
-        "draw_front": "byg:block/zelkova_log"
-    }
-}

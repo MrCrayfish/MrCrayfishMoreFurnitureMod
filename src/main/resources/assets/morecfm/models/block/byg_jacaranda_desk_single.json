@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/desk_single",
-    "textures": {
-        "base": "byg:block/jacaranda_planks",
-        "top": "byg:block/jacaranda_log",
-        "legs": "byg:block/jacaranda_planks"
-    }
-}

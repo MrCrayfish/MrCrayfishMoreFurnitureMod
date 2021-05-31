@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:item/stripped_upgraded_gate",
-    "textures": {
-        "hinge": "byg:block/jacaranda_log",
-        "pole": "byg:block/jacaranda_planks",
-        "plank": "byg:block/stripped_jacaranda_log"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/crate_closed",
-    "textures": {
-        "hinge": "block/light_gray_concrete",
-        "panel": "byg:block/maple_planks",
-        "frame": "byg:block/maple_log"
-    }
-}

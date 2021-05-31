@@ -33,8 +33,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             arg '-mixin.config=morecfm.mixins.json'
@@ -47,8 +46,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             arg '-mixin.config=morecfm.mixins.json'
@@ -61,8 +59,7 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             arg '-mixin.config=morecfm.mixins.json'
@@ -93,7 +90,7 @@ dependencies {
     compile fg.deobf('curse.maven:environmental-388992:3221635')
     compile fg.deobf('curse.maven:atmospheric-362393:3249309')
     compile fg.deobf('curse.maven:biomesoplenty-220318:3300293')
-    compile fg.deobf('curse.maven:ohthebiomesyoullgo-247560:3302333')
+    //provided fg.deobf('curse.maven:ohthebiomesyoullgo-247560:3302333')
 }
 
 processResources {

@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/kitchen_sink",
-    "textures": {
-        "base": "byg:block/stripped_jacaranda_log",
-        "sink": "minecraft:block/white_concrete"
-    }
-}

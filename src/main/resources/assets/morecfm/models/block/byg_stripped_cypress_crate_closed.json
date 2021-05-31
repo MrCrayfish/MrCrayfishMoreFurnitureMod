@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/crate_closed",
-    "textures": {
-        "hinge": "minecraft:block/light_gray_concrete",
-        "panel": "byg:block/stripped_cypress_log",
-        "frame": "byg:block/stripped_cypress_log"
-    }
-}

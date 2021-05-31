@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/chair",
-    "textures": {
-        "seat": "byg:block/zelkova_log",
-        "legs": "byg:block/stripped_zelkova_log"
-    }
-}

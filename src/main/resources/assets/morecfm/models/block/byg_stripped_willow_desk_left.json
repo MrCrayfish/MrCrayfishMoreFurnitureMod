@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/desk_left",
-    "textures": {
-        "base": "byg:block/stripped_willow_log",
-        "top": "byg:block/stripped_willow_log",
-        "legs": "byg:block/willow_log"
-    }
-}

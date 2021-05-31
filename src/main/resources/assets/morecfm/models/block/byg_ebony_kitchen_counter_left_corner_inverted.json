@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/kitchen_counter_left_corner_inverted",
-    "textures": {
-        "top": "byg:block/ebony_log",
-        "base": "byg:block/ebony_planks"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/kitchen_counter_right_corner_inverted",
-    "textures": {
-        "top": "byg:block/fir_log",
-        "base": "byg:block/fir_planks"
-    }
-}

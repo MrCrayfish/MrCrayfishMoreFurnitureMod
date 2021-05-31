@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/upgraded_fence_side",
-    "textures": {
-        "plank": "byg:block/zelkova_planks",
-        "middle": "byg:block/zelkova_log"
-    }
-}

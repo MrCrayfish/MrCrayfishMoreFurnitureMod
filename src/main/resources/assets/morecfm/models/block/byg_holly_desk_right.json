@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/desk_right",
-    "textures": {
-        "base": "byg:block/holly_planks",
-        "top": "byg:block/holly_log",
-        "legs": "byg:block/holly_planks"
-    }
-}

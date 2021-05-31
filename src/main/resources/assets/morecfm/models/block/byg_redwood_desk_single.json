@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/desk_single",
-    "textures": {
-        "base": "byg:block/redwood_planks",
-        "top": "byg:block/redwood_log",
-        "legs": "byg:block/redwood_planks"
-    }
-}

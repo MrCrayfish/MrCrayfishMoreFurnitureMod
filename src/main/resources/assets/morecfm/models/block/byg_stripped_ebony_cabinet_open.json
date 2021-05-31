@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/cabinet_open",
-    "textures": {
-        "door": "byg:block/ebony_log",
-        "base": "byg:block/stripped_ebony_log"
-    }
-}

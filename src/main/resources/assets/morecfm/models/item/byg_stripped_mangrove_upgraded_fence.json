@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:item/upgraded_fence",
-    "textures": {
-        "plank": "byg:block/stripped_mangrove_log",
-        "middle": "byg:block/mangrove_log",
-        "post": "byg:block/stripped_mangrove_log"
-    }
-}

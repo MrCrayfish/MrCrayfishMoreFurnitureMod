@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/coffee_table_tall_all",
-    "textures": {
-        "top": "byg:block/stripped_zelkova_log",
-        "legs": "byg:block/zelkova_log"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/blinds_extension_open",
-    "textures": {
-        "slat": "byg:block/mangrove_planks",
-        "cord": "byg:block/mangrove_log"
-    }
-}

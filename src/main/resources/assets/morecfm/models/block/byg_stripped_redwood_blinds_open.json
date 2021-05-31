@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/blinds_open",
-    "textures": {
-        "head_rail": "byg:block/stripped_redwood_log",
-        "slat": "byg:block/redwood_planks",
-        "cord": "byg:block/redwood_log"
-    }
-}

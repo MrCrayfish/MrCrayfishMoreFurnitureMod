@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/stripped_upgraded_gate_left_closed",
-    "textures": {
-        "hinge": "byg:block/cherry_log",
-        "pole": "byg:block/cherry_planks",
-        "plank": "byg:block/stripped_cherry_log"
-    }
-}

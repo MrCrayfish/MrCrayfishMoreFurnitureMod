@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:item/upgraded_fence",
-    "textures": {
-        "plank": "byg:block/stripped_witch_hazel_log",
-        "middle": "byg:block/witch_hazel_log",
-        "post": "byg:block/stripped_witch_hazel_log"
-    }
-}

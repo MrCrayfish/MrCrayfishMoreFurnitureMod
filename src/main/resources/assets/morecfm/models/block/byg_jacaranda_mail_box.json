@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/mail_box",
-    "textures": {
-        "roof": "byg:block/jacaranda_log",
-        "box": "byg:block/jacaranda_planks"
-    }
-}

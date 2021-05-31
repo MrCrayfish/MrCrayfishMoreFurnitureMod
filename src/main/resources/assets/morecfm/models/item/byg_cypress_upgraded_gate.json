@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:item/upgraded_gate",
-    "textures": {
-        "hinge": "minecraft:block/light_gray_concrete",
-        "pole": "byg:block/cypress_log",
-        "plank": "byg:block/cypress_planks"
-    }
-}

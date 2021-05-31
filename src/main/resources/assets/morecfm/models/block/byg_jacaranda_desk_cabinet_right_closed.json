@@ -1,9 +1,0 @@
-{
-    "parent": "cfm:block/desk_cabinet_right_closed",
-    "textures": {
-        "top": "byg:block/jacaranda_log",
-        "base": "byg:block/jacaranda_planks",
-        "draw_front": "byg:block/jacaranda_log",
-        "legs": "byg:block/jacaranda_planks"
-    }
-}

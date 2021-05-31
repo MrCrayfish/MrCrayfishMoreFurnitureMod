@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/chair",
-    "textures": {
-        "seat": "byg:block/stripped_baobab_log",
-        "legs": "byg:block/baobab_log"
-    }
-}

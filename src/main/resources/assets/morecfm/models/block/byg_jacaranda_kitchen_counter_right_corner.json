@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/kitchen_counter_right_corner",
-    "textures": {
-        "top": "byg:block/jacaranda_log",
-        "base": "byg:block/jacaranda_planks"
-    }
-}

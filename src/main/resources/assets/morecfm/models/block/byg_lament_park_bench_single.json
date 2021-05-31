@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/park_bench_single",
-    "textures": {
-        "legs": "byg:block/lament_log",
-        "plank": "byg:block/lament_planks"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "cfm:block/blinds_extension_open",
-    "textures": {
-        "slat": "byg:block/skyris_planks",
-        "cord": "byg:block/skyris_log"
-    }
-}

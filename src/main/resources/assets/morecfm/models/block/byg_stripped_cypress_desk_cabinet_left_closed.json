@@ -1,9 +1,0 @@
-{
-    "parent": "cfm:block/desk_cabinet_left_closed",
-    "textures": {
-        "top": "byg:block/stripped_cypress_log",
-        "base": "byg:block/stripped_cypress_log",
-        "draw_front": "byg:block/cypress_log",
-        "legs": "byg:block/cypress_log"
-    }
-}

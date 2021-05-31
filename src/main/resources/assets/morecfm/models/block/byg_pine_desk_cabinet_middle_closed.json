@@ -1,8 +1,0 @@
-{
-    "parent": "cfm:block/desk_cabinet_middle_closed",
-    "textures": {
-        "top": "byg:block/pine_log",
-        "base": "byg:block/pine_planks",
-        "draw_front": "byg:block/pine_log"
-    }
-}
