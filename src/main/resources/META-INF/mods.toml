@@ -1,20 +1,18 @@
 modLoader="javafml"
 loaderVersion="[34,)"
 license="GPLv3"
-issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishFurnitureMod/issues"
+issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishMoreFurnitureMod/issues"
 
 [[mods]]
 modId="morecfm"
 version="1.1.1"
 displayName="MrCrayfish's More Furniture Mod"
-updateJSONURL="https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/morecfm/update.json"
+updateJSONURL="https://mrcrayfish.com/modupdatejson?id=morecfm"
 displayURL="https://mrcrayfish.com/mods?id=morecfm"
 logoFile="morefurniture.png"
 credits="The people who helped me when I first started creating mods. I wouldn't be here without them!"
 authors="MrCrayfish"
 description="MrCrayfish's More Furniture Mod is addon to the base Furniture Mod that adds support for wood variants from other mods"
-itemIcon="cfm:stripped_crimson_chair"
-configBackground="minecraft:textures/block/stripped_crimson_stem.png"
 
 [[dependencies.morecfm]]
     modId="forge"
@@ -34,3 +32,7 @@ configBackground="minecraft:textures/block/stripped_crimson_stem.png"
     versionRange="[7.0.0-pre20,)"
     ordering="AFTER"
     side="BOTH"
+
+[modproperties.morecfm]
+    catalogueItemIcon="cfm:stripped_crimson_chair"
+    configuredBackground="minecraft:textures/block/stripped_crimson_stem.png"
