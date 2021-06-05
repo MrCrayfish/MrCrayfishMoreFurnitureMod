@@ -2,6 +2,7 @@ package com.mrcrayfish.morefurniture.init;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mrcrayfish.morefurniture.common.command.GenerateCommand;
+import com.mrcrayfish.morefurniture.common.command.SpawnFurnitureCommand;
 import net.minecraft.command.CommandSource;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.server.FMLServerAboutToStartEvent;
@@ -24,6 +25,7 @@ public class ModCommands
         if(!FMLLoader.isProduction() && !dedicated)
         {
             GenerateCommand.register(dispatcher);
+            SpawnFurnitureCommand.register(dispatcher);
         }
     }
 }
