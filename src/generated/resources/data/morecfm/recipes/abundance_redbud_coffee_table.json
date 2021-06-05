@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "abundance:redbud_log"
+          },
+          "P": {
+            "item": "abundance:redbud_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:abundance_redbud_coffee_table",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

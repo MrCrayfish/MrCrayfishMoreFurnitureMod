@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "abundance:redbud_log"
+          },
+          "P": {
+            "item": "abundance:redbud_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:abundance_redbud_desk",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

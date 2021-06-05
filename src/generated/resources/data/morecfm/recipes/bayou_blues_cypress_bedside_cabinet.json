@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "bayou_blues",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "bedside_cabinet",
+        "pattern": [
+          "LLL",
+          "P P",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "bayou_blues:cypress_log"
+          },
+          "P": {
+            "item": "bayou_blues:cypress_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:bayou_blues_cypress_bedside_cabinet",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

@@ -408,6 +408,30 @@
     {
       "id": "morecfm:byg_imparius_upgraded_fence",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_upgraded_fence",
+      "required": false
     }
   ]
 }

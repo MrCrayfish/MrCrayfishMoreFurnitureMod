@@ -1224,6 +1224,78 @@
     {
       "id": "morecfm:byg_imparius_coffee_table",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_coffee_table",
+      "required": false
     }
   ]
 }

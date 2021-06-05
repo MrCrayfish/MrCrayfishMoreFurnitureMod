@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "bayou_blues",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "bayou_blues:cypress_log"
+          },
+          "P": {
+            "item": "bayou_blues:cypress_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:bayou_blues_cypress_coffee_table",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

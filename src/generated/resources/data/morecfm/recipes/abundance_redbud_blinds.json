@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "blinds",
+        "pattern": [
+          "LLL",
+          "SSS",
+          "SSS"
+        ],
+        "key": {
+          "L": {
+            "item": "abundance:redbud_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:abundance_redbud_blinds",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

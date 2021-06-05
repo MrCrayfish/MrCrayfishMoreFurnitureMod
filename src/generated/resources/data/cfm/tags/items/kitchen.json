@@ -1632,6 +1632,102 @@
     {
       "id": "morecfm:byg_imparius_kitchen_sink_dark",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_sink_dark",
+      "required": false
     }
   ]
 }

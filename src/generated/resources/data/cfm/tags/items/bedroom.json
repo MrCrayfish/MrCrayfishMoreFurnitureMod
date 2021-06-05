@@ -1632,6 +1632,102 @@
     {
       "id": "morecfm:byg_imparius_blinds",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_blinds",
+      "required": false
     }
   ]
 }

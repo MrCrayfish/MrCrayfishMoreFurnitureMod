@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "coffee_table",
+        "pattern": [
+          "LLL",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "abundance:jacaranda_log"
+          },
+          "P": {
+            "item": "abundance:jacaranda_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:abundance_jacaranda_coffee_table",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

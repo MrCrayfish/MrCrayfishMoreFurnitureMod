@@ -1,0 +1,55 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "bayou_blues",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:bayou_blues_stripped_cypress_kitchen_counter"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "bayou_blues:cypress_log"
+                }
+              ]
+            }
+          },
+          "has_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "bayou_blues:stripped_cypress_log"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:bayou_blues_stripped_cypress_kitchen_counter"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_planks",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}

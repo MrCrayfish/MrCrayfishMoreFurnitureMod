@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "bayou_blues",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "mail_box",
+        "pattern": [
+          "C",
+          "F",
+          "F"
+        ],
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "F": {
+            "item": "morecfm:bayou_blues_cypress_upgraded_fence"
+          }
+        },
+        "result": {
+          "item": "morecfm:bayou_blues_cypress_mail_box"
+        }
+      }
+    }
+  ]
+}

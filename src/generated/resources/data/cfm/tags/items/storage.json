@@ -3264,6 +3264,198 @@
     {
       "id": "morecfm:byg_imparius_kitchen_sink_dark",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_kitchen_sink_dark",
+      "required": false
     }
   ]
 }

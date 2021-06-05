@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "bayou_blues",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_fence",
+        "pattern": [
+          "LSL",
+          "LSL"
+        ],
+        "key": {
+          "L": {
+            "item": "bayou_blues:stripped_cypress_log"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:bayou_blues_stripped_cypress_upgraded_fence",
+          "count": 12
+        }
+      }
+    }
+  ]
+}

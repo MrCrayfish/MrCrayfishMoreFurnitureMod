@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "abundance:jacaranda_log"
+          },
+          "P": {
+            "item": "abundance:jacaranda_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:abundance_jacaranda_kitchen_counter",
+          "count": 8
+        }
+      }
+    }
+  ]
+}

@@ -1224,6 +1224,78 @@
     {
       "id": "morecfm:byg_imparius_mail_box",
       "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:bayou_blues_stripped_cypress_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_jacaranda_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_redbud_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:abundance_stripped_redbud_mail_box",
+      "required": false
     }
   ]
 }

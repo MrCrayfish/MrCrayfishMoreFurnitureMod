@@ -1,0 +1,55 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "abundance",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:abundance_stripped_jacaranda_cabinet"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "abundance:jacaranda_log"
+                }
+              ]
+            }
+          },
+          "has_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "abundance:stripped_jacaranda_log"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:abundance_stripped_jacaranda_cabinet"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_planks",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}
