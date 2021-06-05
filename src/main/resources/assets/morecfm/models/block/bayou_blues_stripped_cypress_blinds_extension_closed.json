@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_closed",
+    "textures": {
+        "slat": "bayou_blues:block/cypress_planks",
+        "cord": "bayou_blues:block/cypress_log"
+    }
+}

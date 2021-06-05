@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "abundance:block/jacaranda_planks",
+        "cord": "abundance:block/jacaranda_log"
+    }
+}

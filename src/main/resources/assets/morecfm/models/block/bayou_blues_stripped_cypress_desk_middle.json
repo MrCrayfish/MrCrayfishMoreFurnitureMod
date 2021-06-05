@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "bayou_blues:block/stripped_cypress_log",
+        "top": "bayou_blues:block/stripped_cypress_log"
+    }
+}

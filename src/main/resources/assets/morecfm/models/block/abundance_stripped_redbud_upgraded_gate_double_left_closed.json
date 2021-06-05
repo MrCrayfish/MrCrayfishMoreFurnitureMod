@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_double_left_closed",
+    "textures": {
+        "hinge": "abundance:block/redbud_log",
+        "pole": "abundance:block/redbud_planks",
+        "plank": "abundance:block/stripped_redbud_log"
+    }
+}

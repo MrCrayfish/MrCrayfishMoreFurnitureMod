@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_one",
+    "textures": {
+        "top": "bayou_blues:block/cypress_log",
+        "legs": "bayou_blues:block/stripped_cypress_log"
+    }
+}

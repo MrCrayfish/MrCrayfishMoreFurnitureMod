@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "abundance:block/redbud_log",
+        "base": "abundance:block/redbud_planks"
+    }
+}

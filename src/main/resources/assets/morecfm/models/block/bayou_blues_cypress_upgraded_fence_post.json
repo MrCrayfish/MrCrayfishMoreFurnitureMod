@@ -1,0 +1,6 @@
+{
+    "parent": "cfm:block/upgraded_fence_post",
+    "textures": {
+        "post": "bayou_blues:block/cypress_log"
+    }
+}

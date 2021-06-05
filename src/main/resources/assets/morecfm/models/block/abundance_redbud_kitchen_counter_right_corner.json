@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_right_corner",
+    "textures": {
+        "top": "abundance:block/redbud_log",
+        "base": "abundance:block/redbud_planks"
+    }
+}

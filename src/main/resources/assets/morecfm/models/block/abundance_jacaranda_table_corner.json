@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_corner",
+    "textures": {
+        "top": "abundance:block/jacaranda_log",
+        "legs": "abundance:block/stripped_jacaranda_log"
+    }
+}

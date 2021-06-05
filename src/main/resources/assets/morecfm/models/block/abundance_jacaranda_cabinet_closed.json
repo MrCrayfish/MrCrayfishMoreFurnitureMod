@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "abundance:block/jacaranda_log",
+        "base": "abundance:block/jacaranda_planks"
+    }
+}

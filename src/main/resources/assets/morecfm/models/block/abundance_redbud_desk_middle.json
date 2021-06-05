@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "abundance:block/redbud_planks",
+        "top": "abundance:block/redbud_log"
+    }
+}

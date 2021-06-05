@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner",
+    "textures": {
+        "top": "abundance:block/stripped_jacaranda_log",
+        "base": "abundance:block/stripped_jacaranda_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table",
+    "textures": {
+        "top": "abundance:block/redbud_log",
+        "legs": "abundance:block/stripped_redbud_log"
+    }
+}

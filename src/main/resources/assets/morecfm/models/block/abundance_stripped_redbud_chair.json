@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "abundance:block/stripped_redbud_log",
+        "legs": "abundance:block/redbud_log"
+    }
+}

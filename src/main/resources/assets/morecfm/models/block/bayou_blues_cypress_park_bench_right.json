@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_right",
+    "textures": {
+        "legs": "bayou_blues:block/cypress_log",
+        "plank": "bayou_blues:block/cypress_planks"
+    }
+}

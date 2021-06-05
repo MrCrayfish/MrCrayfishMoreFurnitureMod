@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "bayou_blues:block/stripped_cypress_log",
+        "legs": "bayou_blues:block/cypress_log"
+    }
+}

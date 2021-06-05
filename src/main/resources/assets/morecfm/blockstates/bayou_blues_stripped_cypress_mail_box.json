@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "morecfm:block/bayou_blues_stripped_cypress_mail_box",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "morecfm:block/bayou_blues_stripped_cypress_mail_box",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "morecfm:block/bayou_blues_stripped_cypress_mail_box",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "morecfm:block/bayou_blues_stripped_cypress_mail_box",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_short_all",
+    "textures": {
+        "top": "abundance:block/jacaranda_log",
+        "legs": "abundance:block/stripped_jacaranda_log"
+    }
+}

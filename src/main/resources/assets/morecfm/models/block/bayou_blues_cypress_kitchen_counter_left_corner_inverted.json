@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner_inverted",
+    "textures": {
+        "top": "bayou_blues:block/cypress_log",
+        "base": "bayou_blues:block/cypress_planks"
+    }
+}

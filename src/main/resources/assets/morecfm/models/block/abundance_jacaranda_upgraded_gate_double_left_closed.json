@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_double_left_closed",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "abundance:block/jacaranda_log",
+        "plank": "abundance:block/jacaranda_planks"
+    }
+}

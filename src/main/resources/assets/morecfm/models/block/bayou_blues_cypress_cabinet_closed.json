@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "bayou_blues:block/cypress_log",
+        "base": "bayou_blues:block/cypress_planks"
+    }
+}

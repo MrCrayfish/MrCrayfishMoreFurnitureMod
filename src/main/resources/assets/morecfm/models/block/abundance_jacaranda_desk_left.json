@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_left",
+    "textures": {
+        "base": "abundance:block/jacaranda_planks",
+        "top": "abundance:block/jacaranda_log",
+        "legs": "abundance:block/jacaranda_planks"
+    }
+}

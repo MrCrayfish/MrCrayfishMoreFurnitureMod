@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_sink",
+    "textures": {
+        "base": "abundance:block/redbud_planks",
+        "sink": "block/white_concrete"
+    }
+}

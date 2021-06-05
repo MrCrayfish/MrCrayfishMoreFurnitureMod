@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_single",
+    "textures": {
+        "legs": "bayou_blues:block/stripped_cypress_log",
+        "plank": "bayou_blues:block/stripped_cypress_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "abundance:block/jacaranda_planks",
+        "top": "abundance:block/jacaranda_log"
+    }
+}

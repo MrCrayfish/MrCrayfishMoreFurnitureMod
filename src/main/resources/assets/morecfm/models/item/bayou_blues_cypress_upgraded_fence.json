@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "bayou_blues:block/cypress_planks",
+        "middle": "bayou_blues:block/cypress_log"
+    }
+}

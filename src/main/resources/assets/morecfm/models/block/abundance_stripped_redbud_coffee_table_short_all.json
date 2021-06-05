@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_short_all",
+    "textures": {
+        "top": "abundance:block/stripped_redbud_log",
+        "legs": "abundance:block/redbud_log"
+    }
+}

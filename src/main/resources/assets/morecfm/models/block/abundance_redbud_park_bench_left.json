@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "abundance:block/redbud_log",
+        "plank": "abundance:block/redbud_planks"
+    }
+}

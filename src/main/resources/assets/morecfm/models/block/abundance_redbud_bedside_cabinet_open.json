@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "abundance:block/redbud_planks",
+        "top": "abundance:block/redbud_log",
+        "draw": "abundance:block/stripped_redbud_log",
+        "draw_front": "abundance:block/redbud_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "abundance:block/jacaranda_log",
+        "box": "abundance:block/jacaranda_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "abundance:block/redbud_log",
+        "box": "abundance:block/redbud_planks"
+    }
+}

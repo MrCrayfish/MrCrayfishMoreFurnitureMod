@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_middle",
+    "textures": {
+        "legs": "abundance:block/stripped_redbud_log",
+        "plank": "abundance:block/stripped_redbud_log"
+    }
+}

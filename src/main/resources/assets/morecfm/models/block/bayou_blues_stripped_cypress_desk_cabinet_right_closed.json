@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_right_closed",
+    "textures": {
+        "top": "bayou_blues:block/stripped_cypress_log",
+        "base": "bayou_blues:block/stripped_cypress_log",
+        "draw_front": "bayou_blues:block/cypress_log",
+        "legs": "bayou_blues:block/cypress_log"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "abundance:block/stripped_redbud_log",
+        "base": "abundance:block/stripped_redbud_log",
+        "draw": "abundance:block/stripped_redbud_log",
+        "draw_front": "abundance:block/redbud_log",
+        "legs": "abundance:block/redbud_log"
+    }
+}

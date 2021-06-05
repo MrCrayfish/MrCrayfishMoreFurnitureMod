@@ -6,6 +6,8 @@ import com.minecraftabnormals.autumnity.core.registry.AutumnityBlocks;
 import com.minecraftabnormals.endergetic.core.registry.EEBlocks;
 import com.minecraftabnormals.environmental.core.registry.EnvironmentalBlocks;
 import com.minecraftabnormals.upgrade_aquatic.core.registry.UABlocks;
+import com.teamaurora.abundance.core.registry.AbundanceBlocks;
+import com.teamaurora.bayou_blues.core.registry.BayouBluesBlocks;
 import corgiaoc.byg.core.BYGBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.client.resources.I18n;
@@ -123,6 +125,13 @@ public class Generator
         this.registerVariant("sythian", BYGBlocks.SYTHIAN_STEM, BYGBlocks.SYTHIAN_PLANKS, BYGBlocks.STRIPPED_SYTHIAN_STEM, true);
         this.registerVariant("bulbis", BYGBlocks.BULBIS_STEM, BYGBlocks.BULBIS_PLANKS, null, true);
         this.registerVariant("imparius", BYGBlocks.IMPARIUS_STEM, BYGBlocks.IMPARIUS_PLANKS, null, true);
+
+        // Bayou Blues
+        this.registerVariant("cypress", BayouBluesBlocks.CYPRESS_LOG.get(), BayouBluesBlocks.CYPRESS_PLANKS.get(), BayouBluesBlocks.STRIPPED_CYPRESS_LOG.get());
+
+        // Abundance
+        this.registerVariant("jacaranda", AbundanceBlocks.JACARANDA_LOG.get(), AbundanceBlocks.JACARANDA_PLANKS.get(), AbundanceBlocks.STRIPPED_JACARANDA_LOG.get());
+        this.registerVariant("redbud", AbundanceBlocks.REDBUD_LOG.get(), AbundanceBlocks.REDBUD_PLANKS.get(), AbundanceBlocks.STRIPPED_REDBUD_LOG.get());
     }
 
     public void registerVariant(String id, Block log, Block planks, @Nullable Block strippedLog)

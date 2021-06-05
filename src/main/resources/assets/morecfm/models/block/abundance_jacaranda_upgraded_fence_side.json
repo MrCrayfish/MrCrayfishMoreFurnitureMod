@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "abundance:block/jacaranda_planks",
+        "middle": "abundance:block/jacaranda_log"
+    }
+}

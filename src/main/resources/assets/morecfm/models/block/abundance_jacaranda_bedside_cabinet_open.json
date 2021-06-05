@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "abundance:block/jacaranda_planks",
+        "top": "abundance:block/jacaranda_log",
+        "draw": "abundance:block/stripped_jacaranda_log",
+        "draw_front": "abundance:block/jacaranda_log"
+    }
+}

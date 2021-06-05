@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "abundance:block/redbud_planks",
+        "middle": "abundance:block/redbud_log"
+    }
+}

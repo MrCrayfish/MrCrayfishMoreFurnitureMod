@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "bayou_blues:block/cypress_planks",
+        "top": "bayou_blues:block/cypress_log",
+        "draw": "bayou_blues:block/stripped_cypress_log",
+        "draw_front": "bayou_blues:block/cypress_log"
+    }
+}

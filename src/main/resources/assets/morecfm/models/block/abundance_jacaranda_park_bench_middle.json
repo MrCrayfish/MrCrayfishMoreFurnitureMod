@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_middle",
+    "textures": {
+        "legs": "abundance:block/jacaranda_log",
+        "plank": "abundance:block/jacaranda_planks"
+    }
+}

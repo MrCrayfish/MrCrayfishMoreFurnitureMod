@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "abundance:block/redbud_log",
+        "base": "abundance:block/stripped_redbud_log"
+    }
+}

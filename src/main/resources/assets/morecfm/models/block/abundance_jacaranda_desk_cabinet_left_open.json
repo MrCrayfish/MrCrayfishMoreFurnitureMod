@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_left_open",
+    "textures": {
+        "top": "abundance:block/jacaranda_log",
+        "base": "abundance:block/jacaranda_planks",
+        "draw": "block/stripped_oak_log",
+        "draw_front": "abundance:block/jacaranda_log",
+        "legs": "abundance:block/jacaranda_planks"
+    }
+}
