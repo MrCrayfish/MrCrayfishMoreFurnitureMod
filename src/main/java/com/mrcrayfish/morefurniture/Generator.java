@@ -3,6 +3,7 @@ package com.mrcrayfish.morefurniture;
 import biomesoplenty.api.block.BOPBlocks;
 import com.minecraftabnormals.atmospheric.core.registry.AtmosphericBlocks;
 import com.minecraftabnormals.autumnity.core.registry.AutumnityBlocks;
+import com.minecraftabnormals.endergetic.core.registry.EEBlocks;
 import com.minecraftabnormals.environmental.core.registry.EnvironmentalBlocks;
 import com.minecraftabnormals.upgrade_aquatic.core.registry.UABlocks;
 import corgiaoc.byg.core.BYGBlocks;
@@ -75,6 +76,9 @@ public class Generator
         // Upgrade Aquatic
         this.registerVariant("driftwood", UABlocks.DRIFTWOOD_LOG.get(), UABlocks.DRIFTWOOD_PLANKS.get(), UABlocks.STRIPPED_DRIFTWOOD_LOG.get());
         this.registerVariant("river", UABlocks.RIVER_LOG.get(), UABlocks.RIVER_PLANKS.get(), UABlocks.STRIPPED_RIVER_LOG.get());
+
+        // The Endergetic Expansion
+        this.registerVariant("poise", EEBlocks.POISE_STEM.get(), EEBlocks.POISE_PLANKS.get(), EEBlocks.STRIPPED_POISE_STEM.get(), true);
 
         // Biomes O Plenty
         this.registerVariant("fir", BOPBlocks.fir_log, BOPBlocks.fir_planks, BOPBlocks.stripped_fir_log);
@@ -175,6 +179,8 @@ public class Generator
             {
                 for(Variant variant : this.registeredVariants)
                 {
+                    if(variant.getStrippedLog() == null)
+                        continue;
                     String blockRegistryObject = String.format("registerStrippedColorsOne(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
                     writer.write(blockRegistryObject);
                     writer.newLine();
@@ -185,6 +191,8 @@ public class Generator
             {
                 for(Variant variant : this.registeredVariants)
                 {
+                    if(variant.getStrippedLog() == null)
+                        continue;
                     String blockRegistryObject = String.format("registerStrippedColorsOne(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
                     writer.write(blockRegistryObject);
                     writer.write("\n");
@@ -193,6 +201,8 @@ public class Generator
 
             for(Variant variant : this.registeredVariants)
             {
+                if(variant.getStrippedLog() == null)
+                    continue;
                 String blockRegistryObject = String.format("registerStrippedColorsTwo(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), PARK_BENCH.id.toUpperCase(), variant.id.toUpperCase());
                 writer.write(blockRegistryObject);
                 writer.write("\n");
@@ -200,6 +210,8 @@ public class Generator
 
             for(Variant variant : this.registeredVariants)
             {
+                if(variant.getStrippedLog() == null)
+                    continue;
                 String blockRegistryObject = String.format("registerStrippedColorsTwo(ModBlocks.%s_%s_STRIPPED_%s);", variant.log.getRegistryName().getNamespace().toUpperCase(), PARK_BENCH.id.toUpperCase(), variant.id.toUpperCase());
                 writer.write(blockRegistryObject);
                 writer.write("\n");
@@ -302,6 +314,13 @@ public class Generator
                             newContents = newContents.replace("_log", "_stem");
                         }
                         newContents = newContents.replace("{color}", variant).replace("{modid}", modId);
+
+                        // An except to Endergetic since it doesn't follow standard naming of textures
+                        if(modId.equals("endergetic"))
+                        {
+                            newContents = newContents.replace("block/stripped_poise_stem", "block/poise_stem_stripped");
+                        }
+
                         Files.write(Paths.get(new File(output, newFileName).toURI()), newContents.getBytes(), StandardOpenOption.CREATE);
                     }
                 }

@@ -1,0 +1,6 @@
+{
+    "parent": "cfm:block/upgraded_fence_post",
+    "textures": {
+        "post": "endergetic:block/poise_stem"
+    }
+}

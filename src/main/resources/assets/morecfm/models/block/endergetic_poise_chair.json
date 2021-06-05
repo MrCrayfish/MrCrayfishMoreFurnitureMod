@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "endergetic:block/poise_stem",
+        "legs": "endergetic:block/poise_stem_stripped"
+    }
+}

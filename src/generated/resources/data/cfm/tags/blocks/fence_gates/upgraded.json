@@ -98,6 +98,14 @@
       "required": false
     },
     {
+      "id": "morecfm:endergetic_poise_upgraded_gate",
+      "required": false
+    },
+    {
+      "id": "morecfm:endergetic_stripped_poise_upgraded_gate",
+      "required": false
+    },
+    {
       "id": "morecfm:biomesoplenty_fir_upgraded_gate",
       "required": false
     },

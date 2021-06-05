@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "endergetic:block/poise_planks",
+        "cord": "endergetic:block/poise_stem"
+    }
+}

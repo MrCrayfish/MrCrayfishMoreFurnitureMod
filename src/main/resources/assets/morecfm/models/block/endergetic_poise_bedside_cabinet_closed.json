@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "endergetic:block/poise_planks",
+        "top": "endergetic:block/poise_stem",
+        "draw_front": "endergetic:block/poise_stem"
+    }
+}

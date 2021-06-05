@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "endergetic:block/poise_stem",
+        "base": "endergetic:block/poise_planks"
+    }
+}

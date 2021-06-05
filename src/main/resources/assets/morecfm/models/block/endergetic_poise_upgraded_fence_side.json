@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "endergetic:block/poise_planks",
+        "middle": "endergetic:block/poise_stem"
+    }
+}

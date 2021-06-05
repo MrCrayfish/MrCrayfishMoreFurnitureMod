@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "endergetic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "endergetic:poise_stem"
+          },
+          "P": {
+            "item": "endergetic:poise_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:endergetic_poise_desk",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

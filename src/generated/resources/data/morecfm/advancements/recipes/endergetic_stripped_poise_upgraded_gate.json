@@ -1,0 +1,55 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "endergetic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:endergetic_stripped_poise_upgraded_gate"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "endergetic:stripped_poise_stem"
+                }
+              ]
+            }
+          },
+          "has_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "tag": "forge:fence_gates/wooden"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:endergetic_stripped_poise_upgraded_gate"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_gate",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}

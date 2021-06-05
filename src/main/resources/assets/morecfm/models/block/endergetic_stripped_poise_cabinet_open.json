@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_open",
+    "textures": {
+        "door": "endergetic:block/poise_stem",
+        "base": "endergetic:block/poise_stem_stripped"
+    }
+}

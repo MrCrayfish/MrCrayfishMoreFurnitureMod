@@ -27,6 +27,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_CRATE_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_CRATE_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_CRATE_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_CRATE_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_CHERRY);
@@ -76,6 +77,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_COUNTER_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_COUNTER_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_COUNTER_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_COUNTER_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_CHERRY);
@@ -125,6 +127,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_SINK_LIGHT_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_LIGHT_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_LIGHT_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_SINK_LIGHT_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_CHERRY);
@@ -174,6 +177,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_SINK_DARK_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_DARK_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_DARK_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_SINK_DARK_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_CHERRY);
@@ -223,6 +227,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_CRATE_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_CRATE_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_CRATE_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_CRATE_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_CRATE_STRIPPED_CHERRY);
@@ -272,6 +277,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_COUNTER_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_COUNTER_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_COUNTER_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_COUNTER_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_COUNTER_STRIPPED_CHERRY);
@@ -321,6 +327,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_SINK_LIGHT_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_LIGHT_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_LIGHT_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_SINK_LIGHT_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_LIGHT_STRIPPED_CHERRY);
@@ -370,6 +377,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.ATMOSPHERIC_KITCHEN_SINK_DARK_STRIPPED_GRIMWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_DARK_STRIPPED_DRIFTWOOD);
         registerStrippedColorsOne(ModBlocks.UPGRADE_AQUATIC_KITCHEN_SINK_DARK_STRIPPED_RIVER);
+        registerStrippedColorsOne(ModBlocks.ENDERGETIC_KITCHEN_SINK_DARK_STRIPPED_POISE);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_FIR);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_REDWOOD);
         registerStrippedColorsOne(ModBlocks.BIOMESOPLENTY_KITCHEN_SINK_DARK_STRIPPED_CHERRY);
@@ -419,6 +427,7 @@ public class ClientHandler
         registerStrippedColorsTwo(ModBlocks.ATMOSPHERIC_PARK_BENCH_STRIPPED_GRIMWOOD);
         registerStrippedColorsTwo(ModBlocks.UPGRADE_AQUATIC_PARK_BENCH_STRIPPED_DRIFTWOOD);
         registerStrippedColorsTwo(ModBlocks.UPGRADE_AQUATIC_PARK_BENCH_STRIPPED_RIVER);
+        registerStrippedColorsTwo(ModBlocks.ENDERGETIC_PARK_BENCH_STRIPPED_POISE);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_FIR);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_REDWOOD);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_CHERRY);
@@ -468,6 +477,7 @@ public class ClientHandler
         registerStrippedColorsTwo(ModBlocks.ATMOSPHERIC_PARK_BENCH_STRIPPED_GRIMWOOD);
         registerStrippedColorsTwo(ModBlocks.UPGRADE_AQUATIC_PARK_BENCH_STRIPPED_DRIFTWOOD);
         registerStrippedColorsTwo(ModBlocks.UPGRADE_AQUATIC_PARK_BENCH_STRIPPED_RIVER);
+        registerStrippedColorsTwo(ModBlocks.ENDERGETIC_PARK_BENCH_STRIPPED_POISE);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_FIR);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_REDWOOD);
         registerStrippedColorsTwo(ModBlocks.BIOMESOPLENTY_PARK_BENCH_STRIPPED_CHERRY);

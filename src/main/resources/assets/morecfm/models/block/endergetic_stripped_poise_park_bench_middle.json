@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_middle",
+    "textures": {
+        "legs": "endergetic:block/poise_stem_stripped",
+        "plank": "endergetic:block/poise_stem_stripped"
+    }
+}

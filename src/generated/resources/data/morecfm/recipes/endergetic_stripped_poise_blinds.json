@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "endergetic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "blinds",
+        "pattern": [
+          "LLL",
+          "SSS",
+          "SSS"
+        ],
+        "key": {
+          "L": {
+            "item": "endergetic:stripped_poise_stem"
+          },
+          "S": {
+            "tag": "forge:rods/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:endergetic_stripped_poise_blinds",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

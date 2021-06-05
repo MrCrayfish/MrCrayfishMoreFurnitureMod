@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_one",
+    "textures": {
+        "top": "endergetic:block/poise_stem",
+        "legs": "endergetic:block/poise_stem_stripped"
+    }
+}

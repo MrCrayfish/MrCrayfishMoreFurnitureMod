@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "endergetic:block/poise_stem",
+        "box": "endergetic:block/poise_planks"
+    }
+}

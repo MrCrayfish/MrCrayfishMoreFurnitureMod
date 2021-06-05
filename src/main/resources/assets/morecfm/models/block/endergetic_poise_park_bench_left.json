@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "endergetic:block/poise_stem",
+        "plank": "endergetic:block/poise_planks"
+    }
+}

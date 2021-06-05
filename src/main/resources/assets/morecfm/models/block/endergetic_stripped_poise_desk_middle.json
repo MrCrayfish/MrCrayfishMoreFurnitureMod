@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "endergetic:block/poise_stem_stripped",
+        "top": "endergetic:block/poise_stem_stripped"
+    }
+}

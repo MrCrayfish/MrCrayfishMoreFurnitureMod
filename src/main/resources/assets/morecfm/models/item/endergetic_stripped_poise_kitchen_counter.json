@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_default",
+    "textures": {
+        "base": "endergetic:block/poise_stem_stripped",
+        "top": "endergetic:block/poise_stem_stripped"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_closed",
+    "textures": {
+        "head_rail": "endergetic:block/poise_stem",
+        "slat": "endergetic:block/poise_stem_stripped",
+        "cord": "block/white_concrete"
+    }
+}

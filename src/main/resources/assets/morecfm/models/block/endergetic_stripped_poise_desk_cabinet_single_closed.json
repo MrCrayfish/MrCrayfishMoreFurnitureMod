@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_closed",
+    "textures": {
+        "top": "endergetic:block/poise_stem_stripped",
+        "base": "endergetic:block/poise_stem_stripped",
+        "draw_front": "endergetic:block/poise_stem",
+        "legs": "endergetic:block/poise_stem"
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "modid": "endergetic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "rewards": {
+          "recipes": [
+            "morecfm:endergetic_poise_chair"
+          ]
+        },
+        "criteria": {
+          "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "endergetic:poise_stem"
+                }
+              ]
+            }
+          },
+          "has_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "endergetic:poise_planks"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "morecfm:endergetic_poise_chair"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_log",
+            "has_planks",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  ]
+}
