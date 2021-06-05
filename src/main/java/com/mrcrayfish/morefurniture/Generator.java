@@ -13,6 +13,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.WordUtils;
+import org.apache.commons.lang3.tuple.Pair;
 
 import javax.annotation.Nullable;
 import java.io.BufferedWriter;
@@ -174,12 +175,38 @@ public class Generator
         /* ||||||||||||||| Generate Colors code ||||||||||||||| */
         try(BufferedWriter writer = IOUtils.buffer(new FileWriter("InjectValidBlocks.txt")))
         {
-            FurnitureType[] types = {KITCHEN_SINK_LIGHT, KITCHEN_SINK_DARK};
-            for(FurnitureType type : types)
+            class TileEntityTypeData
             {
+                FurnitureType type;
+                String fieldName;
+                String localSetName;
+
+                TileEntityTypeData(FurnitureType type, String fieldName, String localSetName)
+                {
+                    this.type = type;
+                    this.fieldName = fieldName;
+                    this.localSetName = localSetName;
+                }
+            }
+
+            List<TileEntityTypeData> typeDataList = new ArrayList<>();
+            typeDataList.add(new TileEntityTypeData(CABINET, "CABINET", "cabinetBlocks"));
+            typeDataList.add(new TileEntityTypeData(BEDSIDE_CABINET, "BEDSIDE_CABINET", "bedsideCabinetBlocks"));
+            typeDataList.add(new TileEntityTypeData(DESK_CABINET, "DESK_CABINET", "deskCabinetBlocks"));
+            typeDataList.add(new TileEntityTypeData(CRATE, "CRATE", "crateBlocks"));
+            typeDataList.add(new TileEntityTypeData(MAIL_BOX, "MAIL_BOX", "mailBoxBlocks"));
+            typeDataList.add(new TileEntityTypeData(KITCHEN_DRAWER, "KITCHEN_DRAWER", "kitchenDrawerBlocks"));
+            typeDataList.add(new TileEntityTypeData(KITCHEN_SINK_LIGHT, "KITCHEN_SINK", "kitchenSinkLightBlocks"));
+            typeDataList.add(new TileEntityTypeData(KITCHEN_SINK_DARK, "KITCHEN_SINK", "kitchenSinkDarkBlocks"));
+
+            for(TileEntityTypeData data : typeDataList)
+            {
+                writer.write(String.format("Set<Block> %s = new HashSet<>();", data.localSetName));
+                writer.newLine();
+
                 for(Variant variant : this.registeredVariants)
                 {
-                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_%s, validBlocks);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_%s, %s);", variant.log.getRegistryName().getNamespace().toUpperCase(), data.type.id.toUpperCase(), variant.id.toUpperCase(), data.localSetName);
                     writer.write(blockRegistryObject);
                     writer.newLine();
                 }
@@ -188,10 +215,14 @@ public class Generator
                 {
                     if(variant.getStrippedLog() == null)
                         continue;
-                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_STRIPPED_%s, validBlocks);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_STRIPPED_%s, %s);", variant.log.getRegistryName().getNamespace().toUpperCase(), data.type.id.toUpperCase(), variant.id.toUpperCase(), data.localSetName);
                     writer.write(blockRegistryObject);
                     writer.newLine();
                 }
+
+                writer.write(String.format("addBlocksToTileEntityType(ModTileEntities.%s.get(), %s);", data.fieldName, data.localSetName));
+                writer.newLine();
+                writer.newLine();
             }
         }
         catch(IOException e)
