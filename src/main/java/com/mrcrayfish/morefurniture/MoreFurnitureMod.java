@@ -1,6 +1,5 @@
 package com.mrcrayfish.morefurniture;
 
-import com.mrcrayfish.furniture.FurnitureGroup;
 import com.mrcrayfish.morefurniture.client.ClientHandler;
 import com.mrcrayfish.morefurniture.common.CommonHandler;
 import com.mrcrayfish.morefurniture.datagen.BlockTagGen;
@@ -19,7 +18,6 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -46,20 +44,20 @@ public class MoreFurnitureMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.REGISTER.register(eventBus);
         ModItems.REGISTER.register(eventBus);
-        eventBus.addListener(this::onCommonSetup);
         eventBus.addListener(this::onClientSetup);
         eventBus.addListener(this::onDataSetup);
+        eventBus.addListener(this::onFinishedLoading);
         MinecraftForge.EVENT_BUS.register(new ModCommands());
-    }
-
-    private void onCommonSetup(FMLCommonSetupEvent event)
-    {
-        CommonHandler.setup();
     }
 
     private void onClientSetup(FMLClientSetupEvent event)
     {
         ClientHandler.setup();
+    }
+
+    private void onFinishedLoading(FMLLoadCompleteEvent event)
+    {
+        CommonHandler.injectBlocksIntoSinkTileEntity();
     }
 
     private void onDataSetup(GatherDataEvent event)

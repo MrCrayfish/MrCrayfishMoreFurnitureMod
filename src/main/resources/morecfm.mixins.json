@@ -5,7 +5,8 @@
     "minVersion": "0.8",
     "refmap": "morecfm.refmap.json",
     "mixins": [
-        "ForgeHooksMixin"
+        "ForgeHooksMixin",
+        "TileEntityTypeMixin"
     ],
     "injectors": {
         "defaultRequire": 1

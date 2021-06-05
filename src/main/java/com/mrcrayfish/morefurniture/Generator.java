@@ -172,6 +172,34 @@ public class Generator
         }
 
         /* ||||||||||||||| Generate Colors code ||||||||||||||| */
+        try(BufferedWriter writer = IOUtils.buffer(new FileWriter("InjectValidBlocks.txt")))
+        {
+            FurnitureType[] types = {KITCHEN_SINK_LIGHT, KITCHEN_SINK_DARK};
+            for(FurnitureType type : types)
+            {
+                for(Variant variant : this.registeredVariants)
+                {
+                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_%s, validBlocks);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    writer.write(blockRegistryObject);
+                    writer.newLine();
+                }
+
+                for(Variant variant : this.registeredVariants)
+                {
+                    if(variant.getStrippedLog() == null)
+                        continue;
+                    String blockRegistryObject = String.format("addNonnullBlockSupplierIntoSet(ModBlocks.%s_%s_STRIPPED_%s, validBlocks);", variant.log.getRegistryName().getNamespace().toUpperCase(), type.id.toUpperCase(), variant.id.toUpperCase());
+                    writer.write(blockRegistryObject);
+                    writer.newLine();
+                }
+            }
+        }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
+
+        /* ||||||||||||||| Generate Colors code ||||||||||||||| */
         try(BufferedWriter writer = IOUtils.buffer(new FileWriter("Colors.txt")))
         {
             FurnitureType[] types = {CRATE, KITCHEN_COUNTER, KITCHEN_SINK_LIGHT, KITCHEN_SINK_DARK};
