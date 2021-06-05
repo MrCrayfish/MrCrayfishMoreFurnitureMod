@@ -2,6 +2,6 @@
     "parent": "cfm:block/coffee_table_tall_two",
     "textures": {
         "top": "autumnity:block/maple_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "autumnity:block/stripped_maple_log"
     }
 }

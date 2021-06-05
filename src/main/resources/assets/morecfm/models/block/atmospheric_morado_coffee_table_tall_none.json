@@ -2,6 +2,6 @@
     "parent": "cfm:block/coffee_table_tall_none",
     "textures": {
         "top": "atmospheric:block/morado_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "atmospheric:block/stripped_morado_log"
     }
 }

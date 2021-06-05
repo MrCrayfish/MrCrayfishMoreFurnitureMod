@@ -2,6 +2,6 @@
     "parent": "cfm:block/coffee_table_tall_none",
     "textures": {
         "top": "byg:block/jacaranda_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "byg:block/stripped_jacaranda_log"
     }
 }

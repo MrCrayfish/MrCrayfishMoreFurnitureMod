@@ -2,6 +2,6 @@
     "parent": "cfm:block/coffee_table_short_two",
     "textures": {
         "top": "byg:block/blue_enchanted_log",
-        "legs": "block/stripped_oak_log"
+        "legs": "byg:block/stripped_blue_enchanted_log"
     }
 }
