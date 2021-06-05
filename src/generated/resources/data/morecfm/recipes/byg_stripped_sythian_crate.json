@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "crate",
+        "pattern": [
+          "LPL",
+          "P P",
+          "LPL"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:stripped_sythian_stem"
+          },
+          "P": {
+            "item": "byg:sythian_stem"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_stripped_sythian_crate",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

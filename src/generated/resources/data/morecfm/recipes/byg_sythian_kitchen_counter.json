@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:sythian_stem"
+          },
+          "P": {
+            "item": "byg:sythian_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_sythian_kitchen_counter",
+          "count": 8
+        }
+      }
+    }
+  ]
+}

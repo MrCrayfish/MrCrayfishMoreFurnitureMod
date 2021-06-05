@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table",
+    "textures": {
+        "top": "byg:block/imparius_stem",
+        "legs": "byg:block/imparius_planks"
+    }
+}

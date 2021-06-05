@@ -384,6 +384,22 @@
     {
       "id": "morecfm:byg_stripped_ether_upgraded_fence",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_upgraded_fence",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_upgraded_fence",
+      "required": false
     }
   ]
 }

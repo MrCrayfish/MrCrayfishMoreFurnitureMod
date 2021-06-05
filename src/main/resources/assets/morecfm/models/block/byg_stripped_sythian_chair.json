@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "byg:block/stripped_sythian_stem",
+        "legs": "byg:block/sythian_stem"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_none",
+    "textures": {
+        "top": "byg:block/sythian_stem",
+        "legs": "byg:block/stripped_sythian_stem"
+    }
+}

@@ -1536,6 +1536,70 @@
     {
       "id": "morecfm:byg_stripped_ether_kitchen_sink_dark",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_sink_dark",
+      "required": false
     }
   ]
 }

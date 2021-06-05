@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_one",
+    "textures": {
+        "top": "byg:block/imparius_stem",
+        "legs": "byg:block/imparius_planks"
+    }
+}

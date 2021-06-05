@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/bulbis_planks",
+        "top": "byg:block/bulbis_stem",
+        "draw_front": "byg:block/bulbis_stem"
+    }
+}

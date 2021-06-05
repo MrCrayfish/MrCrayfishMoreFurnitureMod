@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_cabinet_middle_closed",
+    "textures": {
+        "top": "byg:block/stripped_sythian_stem",
+        "base": "byg:block/stripped_sythian_stem",
+        "draw_front": "byg:block/sythian_stem"
+    }
+}

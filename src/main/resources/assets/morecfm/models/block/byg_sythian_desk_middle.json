@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "byg:block/sythian_planks",
+        "top": "byg:block/sythian_stem"
+    }
+}

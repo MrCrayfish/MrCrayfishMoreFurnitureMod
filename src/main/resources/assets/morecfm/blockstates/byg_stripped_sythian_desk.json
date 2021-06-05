@@ -1,0 +1,68 @@
+{
+    "variants": {
+        "facing=north,type=single": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_single",
+            "y": 0
+        },
+        "facing=north,type=left": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_left",
+            "y": 0
+        },
+        "facing=north,type=right": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_right",
+            "y": 0
+        },
+        "facing=north,type=middle": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_middle",
+            "y": 0
+        },
+        "facing=east,type=single": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_single",
+            "y": 90
+        },
+        "facing=east,type=left": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_left",
+            "y": 90
+        },
+        "facing=east,type=right": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_right",
+            "y": 90
+        },
+        "facing=east,type=middle": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_middle",
+            "y": 90
+        },
+        "facing=south,type=single": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_single",
+            "y": 180
+        },
+        "facing=south,type=left": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_left",
+            "y": 180
+        },
+        "facing=south,type=right": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_right",
+            "y": 180
+        },
+        "facing=south,type=middle": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_middle",
+            "y": 180
+        },
+        "facing=west,type=single": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_single",
+            "y": 270
+        },
+        "facing=west,type=left": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_left",
+            "y": 270
+        },
+        "facing=west,type=right": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_right",
+            "y": 270
+        },
+        "facing=west,type=middle": {
+            "model": "morecfm:block/byg_stripped_sythian_desk_middle",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "byg:block/bulbis_stem",
+        "box": "byg:block/bulbis_planks"
+    }
+}

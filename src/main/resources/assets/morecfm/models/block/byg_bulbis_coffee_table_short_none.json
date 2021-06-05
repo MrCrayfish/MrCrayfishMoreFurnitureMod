@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_short_none",
+    "textures": {
+        "top": "byg:block/bulbis_stem",
+        "legs": "byg:block/bulbis_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:item/upgraded_fence",
+    "textures": {
+        "plank": "byg:block/sythian_planks",
+        "middle": "byg:block/sythian_stem"
+    }
+}

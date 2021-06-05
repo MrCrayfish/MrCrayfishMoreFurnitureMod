@@ -1152,6 +1152,54 @@
     {
       "id": "morecfm:byg_stripped_ether_coffee_table",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_coffee_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_table",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_chair",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_coffee_table",
+      "required": false
     }
   ]
 }

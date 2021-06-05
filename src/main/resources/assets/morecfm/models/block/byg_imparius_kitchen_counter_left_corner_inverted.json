@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner_inverted",
+    "textures": {
+        "top": "byg:block/imparius_stem",
+        "base": "byg:block/imparius_planks"
+    }
+}

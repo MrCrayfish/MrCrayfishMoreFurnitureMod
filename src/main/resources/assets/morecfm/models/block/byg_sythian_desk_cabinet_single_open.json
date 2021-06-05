@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "byg:block/sythian_stem",
+        "base": "byg:block/sythian_planks",
+        "draw": "block/stripped_oak_stem",
+        "draw_front": "byg:block/sythian_stem",
+        "legs": "byg:block/sythian_planks"
+    }
+}

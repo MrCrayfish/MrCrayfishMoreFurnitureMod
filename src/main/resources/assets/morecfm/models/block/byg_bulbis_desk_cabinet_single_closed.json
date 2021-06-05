@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_closed",
+    "textures": {
+        "top": "byg:block/bulbis_stem",
+        "base": "byg:block/bulbis_planks",
+        "draw_front": "byg:block/bulbis_stem",
+        "legs": "byg:block/bulbis_planks"
+    }
+}

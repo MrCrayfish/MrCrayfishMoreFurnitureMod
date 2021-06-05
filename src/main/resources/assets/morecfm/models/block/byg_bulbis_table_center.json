@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_center",
+    "textures": {
+        "top": "byg:block/bulbis_stem",
+        "legs": "byg:block/bulbis_planks"
+    }
+}

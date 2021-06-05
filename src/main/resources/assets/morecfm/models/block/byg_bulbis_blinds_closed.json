@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/blinds_closed",
+    "textures": {
+        "head_rail": "byg:block/bulbis_stem",
+        "slat": "byg:block/bulbis_planks",
+        "cord": "block/white_concrete"
+    }
+}

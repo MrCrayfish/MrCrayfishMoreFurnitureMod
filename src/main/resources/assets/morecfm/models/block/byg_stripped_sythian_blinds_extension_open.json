@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "byg:block/sythian_planks",
+        "cord": "byg:block/sythian_stem"
+    }
+}

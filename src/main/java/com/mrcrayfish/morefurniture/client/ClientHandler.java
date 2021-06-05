@@ -63,6 +63,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_COUNTER_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_COUNTER_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_COUNTER_STRIPPED_CHERRY);
@@ -111,6 +112,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_SINK_LIGHT_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_LIGHT_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_LIGHT_STRIPPED_CHERRY);
@@ -159,6 +161,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_SINK_DARK_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_DARK_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_DARK_STRIPPED_CHERRY);
@@ -207,6 +210,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_CRATE_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_CRATE_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_CRATE_STRIPPED_CHERRY);
@@ -255,6 +259,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_CRATE_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_COUNTER_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_COUNTER_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_COUNTER_STRIPPED_CHERRY);
@@ -303,6 +308,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_COUNTER_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_SINK_LIGHT_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_LIGHT_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_LIGHT_STRIPPED_CHERRY);
@@ -351,6 +357,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_LIGHT_STRIPPED_SYTHIAN);
         registerStrippedColorsOne(ModBlocks.AUTUMNITY_KITCHEN_SINK_DARK_STRIPPED_MAPLE);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_DARK_STRIPPED_WILLOW);
         registerStrippedColorsOne(ModBlocks.ENVIRONMENTAL_KITCHEN_SINK_DARK_STRIPPED_CHERRY);
@@ -399,6 +406,7 @@ public class ClientHandler
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_LAMENT);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_NIGHTSHADE);
         registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_ETHER);
+        registerStrippedColorsOne(ModBlocks.BYG_KITCHEN_SINK_DARK_STRIPPED_SYTHIAN);
         registerStrippedColorsTwo(ModBlocks.AUTUMNITY_PARK_BENCH_STRIPPED_MAPLE);
         registerStrippedColorsTwo(ModBlocks.ENVIRONMENTAL_PARK_BENCH_STRIPPED_WILLOW);
         registerStrippedColorsTwo(ModBlocks.ENVIRONMENTAL_PARK_BENCH_STRIPPED_CHERRY);
@@ -447,6 +455,7 @@ public class ClientHandler
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_LAMENT);
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_NIGHTSHADE);
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_ETHER);
+        registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_SYTHIAN);
         registerStrippedColorsTwo(ModBlocks.AUTUMNITY_PARK_BENCH_STRIPPED_MAPLE);
         registerStrippedColorsTwo(ModBlocks.ENVIRONMENTAL_PARK_BENCH_STRIPPED_WILLOW);
         registerStrippedColorsTwo(ModBlocks.ENVIRONMENTAL_PARK_BENCH_STRIPPED_CHERRY);
@@ -495,6 +504,7 @@ public class ClientHandler
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_LAMENT);
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_NIGHTSHADE);
         registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_ETHER);
+        registerStrippedColorsTwo(ModBlocks.BYG_PARK_BENCH_STRIPPED_SYTHIAN);
     }
 
     private static void registerStrippedColorsOne(RegistryObject<Block> blockObject)

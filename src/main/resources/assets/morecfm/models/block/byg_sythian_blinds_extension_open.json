@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/blinds_extension_open",
+    "textures": {
+        "slat": "byg:block/stripped_sythian_stem",
+        "cord": "block/white_concrete"
+    }
+}

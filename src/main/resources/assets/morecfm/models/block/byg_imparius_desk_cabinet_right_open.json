@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_right_open",
+    "textures": {
+        "top": "byg:block/imparius_stem",
+        "base": "byg:block/imparius_planks",
+        "draw": "block/stripped_oak_stem",
+        "draw_front": "byg:block/imparius_stem",
+        "legs": "byg:block/imparius_planks"
+    }
+}

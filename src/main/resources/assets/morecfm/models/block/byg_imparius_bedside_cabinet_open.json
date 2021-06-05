@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "byg:block/imparius_planks",
+        "top": "byg:block/imparius_stem",
+        "draw": "byg:block/imparius_planks",
+        "draw_front": "byg:block/imparius_stem"
+    }
+}

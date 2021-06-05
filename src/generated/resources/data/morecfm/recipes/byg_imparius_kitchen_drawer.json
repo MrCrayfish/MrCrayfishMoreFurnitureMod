@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "byg",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_drawer",
+        "pattern": [
+          "LLL",
+          "PCP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "byg:imparius_stem"
+          },
+          "P": {
+            "item": "byg:imparius_planks"
+          },
+          "C": {
+            "tag": "forge:chests/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:byg_imparius_kitchen_drawer",
+          "count": 4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/table_corner",
+    "textures": {
+        "top": "byg:block/stripped_sythian_stem",
+        "legs": "byg:block/sythian_stem"
+    }
+}

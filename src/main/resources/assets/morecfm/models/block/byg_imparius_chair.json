@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/chair",
+    "textures": {
+        "seat": "byg:block/imparius_stem",
+        "legs": "byg:block/imparius_planks"
+    }
+}

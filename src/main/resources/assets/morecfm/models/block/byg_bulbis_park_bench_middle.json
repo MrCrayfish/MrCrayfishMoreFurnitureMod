@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_middle",
+    "textures": {
+        "legs": "byg:block/bulbis_stem",
+        "plank": "byg:block/bulbis_planks"
+    }
+}

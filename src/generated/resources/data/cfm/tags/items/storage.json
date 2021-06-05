@@ -3072,6 +3072,134 @@
     {
       "id": "morecfm:byg_stripped_ether_kitchen_sink_dark",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_kitchen_sink_dark",
+      "required": false
     }
   ]
 }

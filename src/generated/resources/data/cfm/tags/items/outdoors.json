@@ -1152,6 +1152,54 @@
     {
       "id": "morecfm:byg_stripped_ether_mail_box",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_mail_box",
+      "required": false
     }
   ]
 }

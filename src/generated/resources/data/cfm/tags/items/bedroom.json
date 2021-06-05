@@ -1536,6 +1536,70 @@
     {
       "id": "morecfm:byg_stripped_ether_blinds",
       "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_sythian_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_stripped_sythian_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_bulbis_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:byg_imparius_blinds",
+      "required": false
     }
   ]
 }

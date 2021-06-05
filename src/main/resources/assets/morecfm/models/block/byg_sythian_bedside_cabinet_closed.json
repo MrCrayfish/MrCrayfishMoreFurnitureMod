@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "byg:block/sythian_planks",
+        "top": "byg:block/sythian_stem",
+        "draw_front": "byg:block/sythian_stem"
+    }
+}

@@ -115,6 +115,9 @@ public class Generator
         this.registerVariant("lament", BYGBlocks.LAMENT_LOG, BYGBlocks.LAMENT_PLANKS, BYGBlocks.STRIPPED_LAMENT_LOG);
         this.registerVariant("nightshade", BYGBlocks.NIGHTSHADE_LOG, BYGBlocks.NIGHTSHADE_PLANKS, BYGBlocks.STRIPPED_NIGHTSHADE_LOG);
         this.registerVariant("ether", BYGBlocks.ETHER_LOG, BYGBlocks.ETHER_PLANKS, BYGBlocks.STRIPPED_ETHER_LOG);
+        this.registerVariant("sythian", BYGBlocks.SYTHIAN_STEM, BYGBlocks.SYTHIAN_PLANKS, BYGBlocks.STRIPPED_SYTHIAN_STEM, true);
+        this.registerVariant("bulbis", BYGBlocks.BULBIS_STEM, BYGBlocks.BULBIS_PLANKS, null, true);
+        this.registerVariant("imparius", BYGBlocks.IMPARIUS_STEM, BYGBlocks.IMPARIUS_PLANKS, null, true);
     }
 
     public void registerVariant(String id, Block log, Block planks, @Nullable Block strippedLog)

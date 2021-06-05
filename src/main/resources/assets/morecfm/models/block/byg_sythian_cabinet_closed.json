@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "byg:block/sythian_stem",
+        "base": "byg:block/sythian_planks"
+    }
+}

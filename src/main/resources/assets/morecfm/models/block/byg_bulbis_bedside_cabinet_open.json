@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "byg:block/bulbis_planks",
+        "top": "byg:block/bulbis_stem",
+        "draw": "byg:block/bulbis_planks",
+        "draw_front": "byg:block/bulbis_stem"
+    }
+}
