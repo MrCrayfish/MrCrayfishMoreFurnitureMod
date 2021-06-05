@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "upgrade_aquatic:block/river_log",
+        "base": "upgrade_aquatic:block/river_planks"
+    }
+}

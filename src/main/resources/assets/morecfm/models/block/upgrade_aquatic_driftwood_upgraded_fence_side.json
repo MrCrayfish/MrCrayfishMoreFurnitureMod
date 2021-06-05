@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/upgraded_fence_side",
+    "textures": {
+        "plank": "upgrade_aquatic:block/driftwood_planks",
+        "middle": "upgrade_aquatic:block/driftwood_log"
+    }
+}

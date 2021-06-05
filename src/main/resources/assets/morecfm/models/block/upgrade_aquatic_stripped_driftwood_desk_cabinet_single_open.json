@@ -1,0 +1,10 @@
+{
+    "parent": "cfm:block/desk_cabinet_single_open",
+    "textures": {
+        "top": "upgrade_aquatic:block/stripped_driftwood_log",
+        "base": "upgrade_aquatic:block/stripped_driftwood_log",
+        "draw": "upgrade_aquatic:block/stripped_driftwood_log",
+        "draw_front": "upgrade_aquatic:block/driftwood_log",
+        "legs": "upgrade_aquatic:block/driftwood_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/desk_middle",
+    "textures": {
+        "base": "upgrade_aquatic:block/driftwood_planks",
+        "top": "upgrade_aquatic:block/driftwood_log"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "upgrade_aquatic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "upgraded_gate",
+        "pattern": [
+          "LGL"
+        ],
+        "key": {
+          "L": {
+            "item": "upgrade_aquatic:stripped_river_log"
+          },
+          "G": {
+            "tag": "forge:fence_gates/wooden"
+          }
+        },
+        "result": {
+          "item": "morecfm:upgrade_aquatic_stripped_river_upgraded_gate",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

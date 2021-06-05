@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "upgrade_aquatic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_sink",
+        "pattern": [
+          "CIC",
+          "PBP",
+          "PPP"
+        ],
+        "key": {
+          "C": {
+            "item": "minecraft:gray_concrete"
+          },
+          "I": {
+            "tag": "forge:ingots/iron"
+          },
+          "P": {
+            "item": "upgrade_aquatic:stripped_river_log"
+          },
+          "B": {
+            "item": "minecraft:bucket"
+          }
+        },
+        "result": {
+          "item": "morecfm:upgrade_aquatic_stripped_river_kitchen_sink_dark",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

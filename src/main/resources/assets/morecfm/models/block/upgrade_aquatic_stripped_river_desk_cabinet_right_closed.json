@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/desk_cabinet_right_closed",
+    "textures": {
+        "top": "upgrade_aquatic:block/stripped_river_log",
+        "base": "upgrade_aquatic:block/stripped_river_log",
+        "draw_front": "upgrade_aquatic:block/river_log",
+        "legs": "upgrade_aquatic:block/river_log"
+    }
+}

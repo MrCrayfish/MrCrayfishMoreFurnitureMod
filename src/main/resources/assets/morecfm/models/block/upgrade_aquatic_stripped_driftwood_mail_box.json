@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/mail_box",
+    "textures": {
+        "roof": "upgrade_aquatic:block/stripped_driftwood_log",
+        "box": "upgrade_aquatic:block/driftwood_log"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/cabinet_closed",
+    "textures": {
+        "door": "upgrade_aquatic:block/driftwood_log",
+        "base": "upgrade_aquatic:block/stripped_driftwood_log"
+    }
+}

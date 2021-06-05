@@ -1,0 +1,9 @@
+{
+    "parent": "cfm:block/bedside_cabinet_open",
+    "textures": {
+        "base": "upgrade_aquatic:block/driftwood_planks",
+        "top": "upgrade_aquatic:block/driftwood_log",
+        "draw": "upgrade_aquatic:block/stripped_driftwood_log",
+        "draw_front": "upgrade_aquatic:block/driftwood_log"
+    }
+}

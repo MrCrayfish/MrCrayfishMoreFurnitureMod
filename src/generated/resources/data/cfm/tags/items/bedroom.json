@@ -322,6 +322,70 @@
       "required": false
     },
     {
+      "id": "morecfm:upgrade_aquatic_driftwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_desk",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_blinds",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_blinds",
+      "required": false
+    },
+    {
       "id": "morecfm:biomesoplenty_fir_bedside_cabinet",
       "required": false
     },

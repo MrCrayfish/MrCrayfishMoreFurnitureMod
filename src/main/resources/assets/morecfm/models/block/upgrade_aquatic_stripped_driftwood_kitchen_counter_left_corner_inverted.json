@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_counter_left_corner_inverted",
+    "textures": {
+        "top": "upgrade_aquatic:block/stripped_driftwood_log",
+        "base": "upgrade_aquatic:block/stripped_driftwood_log"
+    }
+}

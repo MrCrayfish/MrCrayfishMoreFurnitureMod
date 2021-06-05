@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_drawer_open",
+    "textures": {
+        "top": "upgrade_aquatic:block/river_log",
+        "base": "upgrade_aquatic:block/river_planks"
+    }
+}

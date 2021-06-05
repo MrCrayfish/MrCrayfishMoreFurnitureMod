@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_tall_all",
+    "textures": {
+        "top": "upgrade_aquatic:block/driftwood_log",
+        "legs": "upgrade_aquatic:block/stripped_driftwood_log"
+    }
+}

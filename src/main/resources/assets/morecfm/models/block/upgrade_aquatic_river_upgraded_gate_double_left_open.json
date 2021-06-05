@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/upgraded_gate_double_left_open",
+    "textures": {
+        "hinge": "block/light_gray_concrete",
+        "pole": "upgrade_aquatic:block/river_log",
+        "plank": "upgrade_aquatic:block/river_planks"
+    }
+}

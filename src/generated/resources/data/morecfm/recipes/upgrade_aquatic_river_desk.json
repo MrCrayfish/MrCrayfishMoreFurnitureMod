@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "upgrade_aquatic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "desk",
+        "pattern": [
+          "LLL",
+          "P P",
+          "P P"
+        ],
+        "key": {
+          "L": {
+            "item": "upgrade_aquatic:river_log"
+          },
+          "P": {
+            "item": "upgrade_aquatic:river_planks"
+          }
+        },
+        "result": {
+          "item": "morecfm:upgrade_aquatic_river_desk",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

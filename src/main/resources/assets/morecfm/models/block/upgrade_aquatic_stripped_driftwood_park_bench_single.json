@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/stripped_park_bench_single",
+    "textures": {
+        "legs": "upgrade_aquatic:block/stripped_driftwood_log",
+        "plank": "upgrade_aquatic:block/stripped_driftwood_log"
+    }
+}

@@ -322,6 +322,70 @@
       "required": false
     },
     {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_counter",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_sink_dark",
+      "required": false
+    },
+    {
       "id": "morecfm:biomesoplenty_fir_kitchen_counter",
       "required": false
     },

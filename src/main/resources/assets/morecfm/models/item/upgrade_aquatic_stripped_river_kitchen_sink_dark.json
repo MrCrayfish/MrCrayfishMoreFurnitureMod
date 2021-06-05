@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/kitchen_sink",
+    "textures": {
+        "base": "upgrade_aquatic:block/stripped_river_log",
+        "sink": "minecraft:block/gray_concrete"
+    }
+}

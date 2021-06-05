@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/bedside_cabinet_closed",
+    "textures": {
+        "base": "upgrade_aquatic:block/river_planks",
+        "top": "upgrade_aquatic:block/river_log",
+        "draw_front": "upgrade_aquatic:block/river_log"
+    }
+}

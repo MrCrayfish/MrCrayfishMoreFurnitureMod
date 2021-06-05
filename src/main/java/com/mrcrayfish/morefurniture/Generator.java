@@ -4,6 +4,7 @@ import biomesoplenty.api.block.BOPBlocks;
 import com.minecraftabnormals.atmospheric.core.registry.AtmosphericBlocks;
 import com.minecraftabnormals.autumnity.core.registry.AutumnityBlocks;
 import com.minecraftabnormals.environmental.core.registry.EnvironmentalBlocks;
+import com.minecraftabnormals.upgrade_aquatic.core.registry.UABlocks;
 import corgiaoc.byg.core.BYGBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.client.resources.I18n;
@@ -71,6 +72,10 @@ public class Generator
         this.registerVariant("aspen", AtmosphericBlocks.ASPEN_LOG.get(), AtmosphericBlocks.ASPEN_PLANKS.get(), AtmosphericBlocks.STRIPPED_ASPEN_LOG.get());
         this.registerVariant("grimwood", AtmosphericBlocks.GRIMWOOD_LOG.get(), AtmosphericBlocks.GRIMWOOD_PLANKS.get(), AtmosphericBlocks.STRIPPED_GRIMWOOD_LOG.get());
 
+        // Upgrade Aquatic
+        this.registerVariant("driftwood", UABlocks.DRIFTWOOD_LOG.get(), UABlocks.DRIFTWOOD_PLANKS.get(), UABlocks.STRIPPED_DRIFTWOOD_LOG.get());
+        this.registerVariant("river", UABlocks.RIVER_LOG.get(), UABlocks.RIVER_PLANKS.get(), UABlocks.STRIPPED_RIVER_LOG.get());
+
         // Biomes O Plenty
         this.registerVariant("fir", BOPBlocks.fir_log, BOPBlocks.fir_planks, BOPBlocks.stripped_fir_log);
         this.registerVariant("redwood", BOPBlocks.redwood_log, BOPBlocks.redwood_planks, BOPBlocks.stripped_redwood_log);
@@ -124,8 +129,6 @@ public class Generator
 
     public void generate()
     {
-        System.out.println("");
-
         /* ||||||||||||||| Generate ModBlocks code ||||||||||||||| */
         try(BufferedWriter writer = IOUtils.buffer(new FileWriter("ModBlocks.txt")))
         {

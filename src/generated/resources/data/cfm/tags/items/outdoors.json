@@ -242,6 +242,54 @@
       "required": false
     },
     {
+      "id": "morecfm:upgrade_aquatic_driftwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_park_bench",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_mail_box",
+      "required": false
+    },
+    {
       "id": "morecfm:biomesoplenty_fir_park_bench",
       "required": false
     },

@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/desk_right",
+    "textures": {
+        "base": "upgrade_aquatic:block/stripped_driftwood_log",
+        "top": "upgrade_aquatic:block/stripped_driftwood_log",
+        "legs": "upgrade_aquatic:block/driftwood_log"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cfm:block/stripped_upgraded_gate_double_right_closed",
+    "textures": {
+        "hinge": "upgrade_aquatic:block/river_log",
+        "pole": "upgrade_aquatic:block/river_planks",
+        "plank": "upgrade_aquatic:block/stripped_river_log"
+    }
+}

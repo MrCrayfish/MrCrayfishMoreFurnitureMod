@@ -642,6 +642,134 @@
       "required": false
     },
     {
+      "id": "morecfm:upgrade_aquatic_driftwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_driftwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_bedside_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_desk_cabinet",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_crate",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_mail_box",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_drawer",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_sink_light",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_river_kitchen_sink_dark",
+      "required": false
+    },
+    {
+      "id": "morecfm:upgrade_aquatic_stripped_river_kitchen_sink_dark",
+      "required": false
+    },
+    {
       "id": "morecfm:biomesoplenty_fir_cabinet",
       "required": false
     },

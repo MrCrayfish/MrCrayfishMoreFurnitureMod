@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "upgrade_aquatic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "mail_box",
+        "pattern": [
+          "C",
+          "F",
+          "F"
+        ],
+        "key": {
+          "C": {
+            "tag": "forge:chests/wooden"
+          },
+          "F": {
+            "item": "morecfm:upgrade_aquatic_river_upgraded_fence"
+          }
+        },
+        "result": {
+          "item": "morecfm:upgrade_aquatic_river_mail_box"
+        }
+      }
+    }
+  ]
+}

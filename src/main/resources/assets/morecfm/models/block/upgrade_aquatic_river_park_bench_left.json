@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/park_bench_left",
+    "textures": {
+        "legs": "upgrade_aquatic:block/river_log",
+        "plank": "upgrade_aquatic:block/river_planks"
+    }
+}

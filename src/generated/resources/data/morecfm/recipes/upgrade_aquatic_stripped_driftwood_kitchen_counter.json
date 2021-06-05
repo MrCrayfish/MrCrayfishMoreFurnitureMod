@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "upgrade_aquatic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "group": "kitchen_counter",
+        "pattern": [
+          "LLL",
+          "PPP",
+          "PPP"
+        ],
+        "key": {
+          "L": {
+            "item": "upgrade_aquatic:driftwood_log"
+          },
+          "P": {
+            "item": "upgrade_aquatic:stripped_driftwood_log"
+          }
+        },
+        "result": {
+          "item": "morecfm:upgrade_aquatic_stripped_driftwood_kitchen_counter",
+          "count": 8
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "cfm:block/coffee_table_short_none",
+    "textures": {
+        "top": "upgrade_aquatic:block/stripped_river_log",
+        "legs": "upgrade_aquatic:block/river_log"
+    }
+}
