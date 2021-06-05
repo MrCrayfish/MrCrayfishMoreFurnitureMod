@@ -122,6 +122,11 @@ public class Generator
         this.registeredVariants.add(new Variant(id, log, planks, strippedLog));
     }
 
+    public void registerVariant(String id, Block log, Block planks, @Nullable Block strippedLog, boolean stem)
+    {
+        this.registeredVariants.add(new Variant(id, log, planks, strippedLog, stem));
+    }
+
     public List<Variant> getRegisteredVariants()
     {
         return this.registeredVariants;
@@ -241,9 +246,10 @@ public class Generator
             String modId = variant.getLog().getRegistryName().getNamespace();
             String variantId = variant.id;
             boolean stripped = variant.getStrippedLog() != null;
-            this.generateFiles("blockstates", modId, variantId, stripped);
-            this.generateFiles("models/block", modId, variantId, stripped);
-            this.generateFiles("models/item", modId, variantId, stripped);
+            boolean stem = variant.isStem();
+            this.generateFiles("blockstates", modId, variantId, stripped, stem);
+            this.generateFiles("models/block", modId, variantId, stripped, stem);
+            this.generateFiles("models/item", modId, variantId, stripped, stem);
         }
     }
 
@@ -260,8 +266,11 @@ public class Generator
         }
     }
 
-    private void generateFiles(String folder, String modId, String variant, boolean stripped)
+    private void generateFiles(String folder, String modId, String variant, boolean stripped, boolean stem)
     {
+        if(variant.equals("bulbis"))
+            System.out.println("YEP");
+
         try
         {
             File input = new File("resources/input/" + folder);
@@ -274,12 +283,22 @@ public class Generator
                     for(File file : inputFiles)
                     {
                         if(file.isDirectory())
-                            return;
+                            continue;
                         if(file.getName().contains("stripped") && !stripped)
-                            return;
+                            continue;
+
                         String contents = new String(Files.readAllBytes(Paths.get(file.toURI())));
                         String newFileName = file.getName().replace("{color}", variant).replace("{modid}", modId);
-                        String newContents = contents.replace("{color}", variant).replace("{modid}", modId);
+                        String newContents = contents;
+                        if(stem)
+                        {
+                            if(!stripped)
+                            {
+                                newContents = newContents.replace("stripped_{color}_log", "{color}_planks");
+                            }
+                            newContents = newContents.replace("_log", "_stem");
+                        }
+                        newContents = newContents.replace("{color}", variant).replace("{modid}", modId);
                         Files.write(Paths.get(new File(output, newFileName).toURI()), newContents.getBytes(), StandardOpenOption.CREATE);
                     }
                 }
@@ -293,18 +312,25 @@ public class Generator
 
     public static class Variant
     {
-        private String id;
-        private Block log;
-        private Block planks;
+        private final String id;
+        private final Block log;
+        private final Block planks;
         @Nullable
-        private Block strippedLog;
+        private final Block strippedLog;
+        private final boolean stem;
 
         public Variant(String id, Block log, Block planks, @Nullable Block strippedLog)
+        {
+            this(id, log, planks, strippedLog, false);
+        }
+
+        public Variant(String id, Block log, Block planks, @Nullable Block strippedLog, boolean stem)
         {
             this.id = id;
             this.log = log;
             this.planks = planks;
             this.strippedLog = strippedLog;
+            this.stem = stem;
         }
 
         public String getId()
@@ -326,6 +352,11 @@ public class Generator
         public Block getStrippedLog()
         {
             return this.strippedLog;
+        }
+
+        public boolean isStem()
+        {
+            return this.stem;
         }
     }
 
