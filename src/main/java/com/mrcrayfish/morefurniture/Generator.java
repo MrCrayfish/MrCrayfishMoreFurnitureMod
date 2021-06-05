@@ -283,9 +283,6 @@ public class Generator
 
     private void generateFiles(String folder, String modId, String variant, boolean stripped, boolean stem)
     {
-        if(variant.equals("bulbis"))
-            System.out.println("YEP");
-
         try
         {
             File input = new File("resources/input/" + folder);
