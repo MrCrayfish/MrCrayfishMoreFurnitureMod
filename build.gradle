@@ -87,7 +87,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.1.15'
     annotationProcessor 'org.spongepowered:mixin:0.8:processor'
-    compile fg.deobf('curse.maven:cfm-55438:3325365')
+    compile fg.deobf('curse.maven:cfm-55438:3346467')
     compile fg.deobf('curse.maven:abnormalscore-382216:3233486')
     compile fg.deobf('curse.maven:autumnity-365045:3295700')
     compile fg.deobf('curse.maven:environmental-388992:3221635')

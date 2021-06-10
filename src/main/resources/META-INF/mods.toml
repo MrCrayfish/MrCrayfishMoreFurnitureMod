@@ -29,7 +29,7 @@ description="MrCrayfish's More Furniture Mod is addon to the base Furniture Mod 
 [[dependencies.morecfm]]
     modId="cfm"
     mandatory=true
-    versionRange="[7.0.0-pre20,)"
+    versionRange="[7.0.0-pre22,)"
     ordering="AFTER"
     side="BOTH"
 

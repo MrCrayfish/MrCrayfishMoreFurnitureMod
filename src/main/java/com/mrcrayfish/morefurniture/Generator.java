@@ -37,18 +37,18 @@ import java.util.function.Function;
  */
 public class Generator
 {
-    public static final FurnitureType TABLE = new FurnitureType("table", "TableBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType CHAIR = new FurnitureType("chair", "ChairBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType COFFEE_TABLE = new FurnitureType("coffee_table", "CoffeeTableBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType CABINET = new FurnitureType("cabinet", "CabinetBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(1.0F).sound(SoundType.WOOD)"});
-    public static final FurnitureType BEDSIDE_CABINET = new FurnitureType("bedside_cabinet", "BedsideCabinetBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(1.0F).sound(SoundType.WOOD)"});
-    public static final FurnitureType DESK = new FurnitureType("desk", "DeskBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(1.0F).sound(SoundType.WOOD)", "DeskBlock.MaterialType.OAK"});
-    public static final FurnitureType DESK_CABINET = new FurnitureType("desk_cabinet", "DeskCabinetBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(1.0F).sound(SoundType.WOOD)", "DeskBlock.MaterialType.OAK"});
-    public static final FurnitureType BLINDS = new FurnitureType("blinds", "BlindsBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType UPGRADED_FENCE = new FurnitureType("upgraded_fence", "UpgradedFenceBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType UPGRADED_GATE = new FurnitureType("upgraded_gate", "UpgradedGateBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(0.5F).sound(SoundType.WOOD)"});
-    public static final FurnitureType CRATE = new FurnitureType("crate", "CrateBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(2.0F, 10.0F).sound(SoundType.WOOD)"});
-    public static final FurnitureType PARK_BENCH = new FurnitureType("park_bench", "ParkBenchBlock", new String[]{"Block.Properties.create(WOOD).hardnessAndResistance(2.0F, 10.0F).sound(SoundType.WOOD)"});
+    public static final FurnitureType TABLE = new FurnitureType("table", "TableBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType CHAIR = new FurnitureType("chair", "ChairBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType COFFEE_TABLE = new FurnitureType("coffee_table", "CoffeeTableBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType CABINET = new FurnitureType("cabinet", "CabinetBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType BEDSIDE_CABINET = new FurnitureType("bedside_cabinet", "BedsideCabinetBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType DESK = new FurnitureType("desk", "DeskBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)", "DeskBlock.MaterialType.OAK"});
+    public static final FurnitureType DESK_CABINET = new FurnitureType("desk_cabinet", "DeskCabinetBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)", "DeskBlock.MaterialType.OAK"});
+    public static final FurnitureType BLINDS = new FurnitureType("blinds", "BlindsBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType UPGRADED_FENCE = new FurnitureType("upgraded_fence", "UpgradedFenceBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType UPGRADED_GATE = new FurnitureType("upgraded_gate", "UpgradedGateBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
+    public static final FurnitureType CRATE = new FurnitureType("crate", "CrateBlock", new String[]{"Block.Properties.from(Blocks.CHESTS)"});
+    public static final FurnitureType PARK_BENCH = new FurnitureType("park_bench", "ParkBenchBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
     public static final FurnitureType MAIL_BOX = new FurnitureType("mail_box", "MailBoxBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
     public static final FurnitureType KITCHEN_COUNTER = new FurnitureType("kitchen_counter", "KitchenCounterBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
     public static final FurnitureType KITCHEN_DRAWER = new FurnitureType("kitchen_drawer", "KitchenDrawerBlock", new String[]{"Block.Properties.from(Blocks.OAK_PLANKS)"});
