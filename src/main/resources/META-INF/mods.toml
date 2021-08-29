@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[34,)"
+loaderVersion="[36,)"
 license="GPLv3"
 issueTrackerURL="https://github.com/MrCrayfish/MrCrayfishMoreFurnitureMod/issues"
 
@@ -17,13 +17,13 @@ description="MrCrayfish's More Furniture Mod is addon to the base Furniture Mod 
 [[dependencies.morecfm]]
     modId="forge"
     mandatory=true
-    versionRange="[34.1.0,)"
+    versionRange="[36.2.0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.morecfm]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3,)"
+    versionRange="[1.16.5,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.morecfm]]
