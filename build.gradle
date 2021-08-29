@@ -88,16 +88,16 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.1.15'
     annotationProcessor 'org.spongepowered:mixin:0.8:processor'
     compile fg.deobf('curse.maven:cfm-55438:3346467')
-    compile fg.deobf('curse.maven:abnormalscore-382216:3233486')
+    compile fg.deobf('curse.maven:abnormalscore-382216:3351059')
     compile fg.deobf('curse.maven:autumnity-365045:3295700')
-    compile fg.deobf('curse.maven:environmental-388992:3221635')
+    compile fg.deobf('curse.maven:environmental-388992:3416597')
     compile fg.deobf('curse.maven:atmospheric-362393:3249309')
     compile fg.deobf('curse.maven:upgradeaquatic-326895:3249419')
     compile fg.deobf('curse.maven:endergetic-291509:3154938')
-    compile fg.deobf('curse.maven:bayoublues-452344:3250109')
+    compile fg.deobf('curse.maven:bayoublues-452344:3342861')
     compile fg.deobf('curse.maven:abundance-452345:3250108')
-    compile fg.deobf('curse.maven:biomesoplenty-220318:3300293')
-    compile fg.deobf('curse.maven:ohthebiomesyoullgo-247560:3302333')
+    compile fg.deobf('curse.maven:biomesoplenty-220318:3360574')
+    compile fg.deobf('curse.maven:ohthebiomesyoullgo-247560:3438428')
 }
 
 processResources {
